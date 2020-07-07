@@ -1,0 +1,20 @@
+[kdeglobals][KDE]
+widgetStyle=breeze
+
+[kdeglobals][General]
+ColorScheme=Yellow
+
+[kdeglobals][Icons]
+Theme=Breeze Chameleon Dark
+
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
+
+[plasmarc][Theme]
+name=Yellow
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Yellow
+
+

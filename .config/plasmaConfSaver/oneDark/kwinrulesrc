@@ -1,0 +1,12 @@
+[1]
+Description=Application settings for google-chrome
+clientmachine=localhost
+clientmachinematch=0
+noborder=false
+noborderrule=1
+wmclass=google-chrome
+wmclasscomplete=false
+wmclassmatch=1
+
+[General]
+count=1

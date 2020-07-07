@@ -1,0 +1,103 @@
+[$Version]
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed
+
+[Compositing]
+OpenGLIsUnsafe=false
+
+[Desktops]
+Id_1=06d6091c-02c5-4644-a0ce-fb5518e6ea39
+Number=1
+Rows=1
+
+[Effect-CoverSwitch]
+TabBox=true
+TabBoxAlternative=false
+
+[Effect-FlipSwitch]
+TabBox=false
+TabBoxAlternative=false
+
+[MouseBindings]
+CommandActiveTitlebar1=Raise
+CommandActiveTitlebar2=Nothing
+CommandActiveTitlebar3=Operations menu
+CommandAll1=Move
+CommandAll2=Toggle raise and lower
+CommandAll3=Resize
+CommandAllKey=Alt
+CommandAllWheel=Nothing
+CommandInactiveTitlebar1=Activate and raise
+CommandInactiveTitlebar2=Nothing
+CommandInactiveTitlebar3=Operations menu
+CommandTitlebarWheel=Nothing
+CommandWindow1=Activate, raise and pass click
+CommandWindow2=Activate and pass click
+CommandWindow3=Activate and pass click
+CommandWindowWheel=Scroll
+
+[Plugins]
+coverswitchEnabled=true
+highlightwindowEnabled=true
+kwin4_effect_squashEnabled=false
+magiclampEnabled=true
+minimizeallEnabled=true
+synchronizeskipswitcherEnabled=false
+videowallEnabled=false
+windowgeometryEnabled=false
+
+[TabBox]
+ActivitiesMode=1
+ApplicationsMode=0
+DesktopLayout=org.kde.breeze.desktop
+DesktopListLayout=org.kde.breeze.desktop
+DesktopMode=1
+HighlightWindows=true
+LayoutName=MediumRounded
+MinimizedMode=0
+MultiScreenMode=0
+ShowDesktopMode=0
+ShowTabBox=true
+SwitchingMode=0
+
+[TabBoxAlternative]
+ActivitiesMode=1
+ApplicationsMode=0
+DesktopMode=1
+HighlightWindows=true
+LayoutName=org.kde.breeze.desktop
+MinimizedMode=0
+MultiScreenMode=0
+ShowDesktopMode=0
+ShowTabBox=true
+SwitchingMode=0
+
+[Windows]
+ActiveMouseScreen=false
+AutoRaise=false
+AutoRaiseInterval=750
+BorderSnapZone=10
+CenterSnapZone=0
+ClickRaise=true
+DelayFocusInterval=300
+FocusPolicy=ClickToFocus
+FocusStealingPreventionLevel=1
+GeometryTip=false
+HideUtilityWindowsForInactive=true
+MaximizeButtonLeftClickCommand=Maximize
+MaximizeButtonMiddleClickCommand=Maximize (vertical only)
+MaximizeButtonRightClickCommand=Maximize (horizontal only)
+NextFocusPrefersMouse=false
+Placement=Centered
+SeparateScreenFocus=false
+ShadeHover=false
+ShadeHoverInterval=250
+SnapOnlyWhenOverlapping=false
+TitlebarDoubleClickCommand=Maximize
+WindowSnapZone=10
+
+[org.kde.kdecoration2]
+BorderSize=None
+BorderSizeAuto=false
+ButtonsOnRight=IAX
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__OneDark
