@@ -7,7 +7,7 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometriesHorizontal=Applet-29:32,64,80,128,0;Applet-32:656,144,336,160,0;
+ItemGeometriesHorizontal=Applet-29:32,64,80,128,0;Applet-32:496,144,336,160,0;
 activityId=6dd72cac-7d49-45c0-9c12-635f55a97755
 formfactor=0
 immutability=1
@@ -59,10 +59,10 @@ SlidePaths=/home/knnan/.local/share/wallpapers,/usr/share/plasma/wallpapers,/usr
 
 [Containments][2]
 activityId=
-formfactor=2
+formfactor=3
 immutability=1
 lastScreen=0
-location=4
+location=6
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -86,7 +86,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][25][Configuration]
-PreloadWeight=97
+PreloadWeight=89
 
 [Containments][2][Applets][25][Configuration][General]
 favoritesPortedToKAstats=true
@@ -130,7 +130,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=54
+PreloadWeight=58
 SystrayContainmentId=7
 
 [Containments][2][Applets][9]
@@ -145,8 +145,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][ConfigDialog]
-DialogHeight=72
-DialogWidth=1920
+DialogHeight=1080
+DialogWidth=156
 
 [Containments][2][Configuration]
 PreloadWeight=0
@@ -186,10 +186,10 @@ Image=/home/knnan/Downloads/FalseGods.jpg
 
 [Containments][7]
 activityId=
-formfactor=2
+formfactor=3
 immutability=1
 lastScreen=0
-location=4
+location=6
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
@@ -198,7 +198,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=44
+PreloadWeight=33
 
 [Containments][7][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -212,7 +212,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=59
+PreloadWeight=63
 
 [Containments][7][Applets][13]
 immutability=1
@@ -240,7 +240,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][16][Configuration]
-PreloadWeight=32
+PreloadWeight=16
 
 [Containments][7][Applets][16][Configuration][ConfigDialog]
 DialogHeight=540
@@ -265,14 +265,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=41
+PreloadWeight=25
 
 [Containments][7][Applets][20]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][20][Configuration]
-PreloadWeight=49
+PreloadWeight=33
 
 [Containments][7][Applets][21]
 immutability=1

@@ -6,14 +6,13 @@ Height 1080=494
 Width 1920=700
 
 [Favorite Profiles]
-Favorites=New Profile.profile,Profile 1.profile,Main profile.profile
+Favorites=Profile 1.profile,New Profile.profile,Main profile.profile
 
 [MainWindow]
 Height 1080=574
 Height 900=574
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAPeAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAyMAAAIgAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1600=1044
 Width 1920=803
-Window-Maximized 1080x1920=true
 Window-Maximized 900x1600=true
