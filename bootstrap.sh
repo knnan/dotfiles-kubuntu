@@ -10,12 +10,12 @@ sudo apt install fzf
 sudo apt install python3-pip
 sudo apt install zsh
 sudo apt install powerline fonts-powerline
-
-#powerlevel9k
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
 #oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+#powerlevel9k
+git clone https://github.com/bhilburn/powerlevel9k.git "$HOME"/.oh-my-zsh/custom/themes/powerlevel9k
+
 
 
 #zsh-syntax-highlighting
