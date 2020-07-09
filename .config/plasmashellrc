@@ -3,6 +3,7 @@ Height 1080=494
 Height 900=494
 Width 1600=700
 Width 1920=700
+Window-Maximized 1080x1920=true
 
 [KFileDialog Settings]
 Recent Files[$e]=cxcxz.jpeg,file:$HOME/Downloads/f1aa4fc5b6b5c1a35ae8dd05eba4abc6.jpg,file:$HOME/Downloads/FalseGods.jpg,file:$HOME/Downloads/cxcxz.jpeg
@@ -27,7 +28,7 @@ LaunchCounts=2 services_typora.desktop,2 services_virtualbox.desktop,3 services_
 pluginWhiteList=services,shell,bookmarks,baloosearch,locations
 
 [PlasmaTransientsConfig]
-PreloadWeight=34
+PreloadWeight=26
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=34

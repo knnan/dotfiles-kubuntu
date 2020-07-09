@@ -114,7 +114,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock.wl
 
 [Containments][2][Applets][31][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][2][Applets][31][Configuration][Appearance]
 bold=false
@@ -125,12 +125,19 @@ marginSize=26
 DialogHeight=540
 DialogWidth=720
 
+[Containments][2][Applets][35]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][2][Applets][35][Configuration]
+PreloadWeight=80
+
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=63
+PreloadWeight=83
 SystrayContainmentId=7
 
 [Containments][2][Applets][9]
@@ -146,13 +153,13 @@ DialogWidth=720
 
 [Containments][2][ConfigDialog]
 DialogHeight=1080
-DialogWidth=156
+DialogWidth=158
 
 [Containments][2][Configuration]
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=25;22;28;6;31;9
+AppletOrder=25;22;28;35;6;31;9
 
 [Containments][23]
 activityId=6dd72cac-7d49-45c0-9c12-635f55a97755
@@ -212,7 +219,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=68
+PreloadWeight=73
 
 [Containments][7][Applets][13]
 immutability=1
@@ -272,7 +279,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][20][Configuration]
-PreloadWeight=33
+PreloadWeight=38
 
 [Containments][7][Applets][21]
 immutability=1
