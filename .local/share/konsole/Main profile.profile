@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=DraculaPitchBlack
+ColorScheme=dracular dark changed
 
 [Cursor Options]
 CursorShape=1
