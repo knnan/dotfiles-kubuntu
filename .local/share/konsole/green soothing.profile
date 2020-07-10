@@ -1,11 +1,11 @@
 [Appearance]
-ColorScheme=Dracula
+ColorScheme=base16-atelier-estuary
 
 [Cursor Options]
 CursorShape=1
 
 [General]
-Name=Profile 1
+Name=green soothing
 Parent=FALLBACK/
 
 [Terminal Features]
