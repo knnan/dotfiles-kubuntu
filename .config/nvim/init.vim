@@ -63,6 +63,8 @@ let g:jedi#completions_enabled = 0
 let g:jedi#use_splits_not_buffers = "right"
 
 
+let mapleader=";"
+
 
 " Spaces & Tabs {{{
 set tabstop=4       " number of visual spaces per TAB
@@ -84,8 +86,9 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <c-k> <C-w>k
 map <c-l> <C-w>l
-map <C-p> :FZF<CR> 
-
+map <C-p> :Files<CR> 
+inoremap jj <ESC>
+nmap <leader><leader> :Buffers<CR>
 
 " deoplete configuration
 

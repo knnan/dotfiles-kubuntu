@@ -141,6 +141,8 @@ load-nvmrc
 #
 # Example aliases
 alias zshconfig="vi ~/.zshrc"
+alias viconfig="vi ~/.config/nvim/init.vim"
+alias reload="source ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias python=python3
