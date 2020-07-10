@@ -84,7 +84,8 @@ SAVEHIST=999999
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions virtualenv virtualenvwrapper docker docker-compose fzf)
 
-
+# equivalent bash / zsh:
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 
 source $ZSH/oh-my-zsh.sh
 source /usr/share/doc/fzf/examples/key-bindings.zsh

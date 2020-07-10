@@ -6,7 +6,10 @@ Height 1080=494
 Width 1920=700
 
 [Favorite Profiles]
-Favorites=Main profile.profile,soothing.profile,green soothing.profile,Palenlight.profile
+Favorites=green soothing.profile,soothing.profile,Palenlight.profile,Main profile.profile
+
+[KFileDialog Settings]
+iconViewIconSize=43
 
 [MainWindow]
 Height 1080=1054

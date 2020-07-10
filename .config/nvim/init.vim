@@ -11,6 +11,7 @@ Plug 'https://github.com/airblade/vim-rooter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sainnhe/forest-night'
 Plug 'ayu-theme/ayu-vim' 
+Plug 'chriskempson/base16-vim'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
