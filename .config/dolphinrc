@@ -33,10 +33,10 @@ FontWeight=50
 PreviewSize=48
 
 [KPropertiesDialog]
-Height 1080=456
+Height 1080=518
 Height 900=518
 Width 1600=471
-Width 1920=347
+Width 1920=471
 
 [MainWindow]
 Height 1080=694

@@ -169,4 +169,3 @@ clip()
 {
   cat $1 | xclip -selection c
 }
-alias config='/usr/bin/git --git-dir=/home/knnan/dotfiles/ --work-tree=/home/knnan'
