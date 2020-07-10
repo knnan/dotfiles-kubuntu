@@ -41,7 +41,8 @@ let g:airline_theme = "palenight"
 
 syntax on
 set guicursor=
-
+set cursorline
+set number
 
 let g:deoplete#enable_at_startup = 1
 

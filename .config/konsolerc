@@ -1,12 +1,12 @@
 [Desktop Entry]
-DefaultProfile=Main profile.profile
+DefaultProfile=Palenlight.profile
 
 [DownloadDialog Settings]
 Height 1080=494
 Width 1920=700
 
 [Favorite Profiles]
-Favorites=New Profile.profile,Profile 1.profile,Main profile.profile
+Favorites=Main profile.profile,soothing.profile,green soothing.profile,Palenlight.profile
 
 [MainWindow]
 Height 1080=1054
