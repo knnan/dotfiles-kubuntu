@@ -1,11 +1,11 @@
 [Appearance]
-ColorScheme=DraculaPitchBlack
+ColorScheme=base16-material-palenight
 
 [Cursor Options]
 CursorShape=1
 
 [General]
-Name=New Profile
+Name=Palenlight
 Parent=FALLBACK/
 
 [Terminal Features]
