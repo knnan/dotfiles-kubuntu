@@ -84,8 +84,12 @@ SAVEHIST=999999
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions virtualenv virtualenvwrapper docker docker-compose fzf)
 
-# equivalent bash / zsh:
-export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
+
+# Setting rg as the default source for fzf
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow -g "!{.git,node_modules}/*" 2> /dev/null'
+
+# To apply the command to CTRL-T as well
+# export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 source $ZSH/oh-my-zsh.sh
 source /usr/share/doc/fzf/examples/key-bindings.zsh

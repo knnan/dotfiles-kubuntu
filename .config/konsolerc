@@ -1,12 +1,12 @@
 [Desktop Entry]
-DefaultProfile=Palenlight.profile
+DefaultProfile=green soothing.profile
 
 [DownloadDialog Settings]
 Height 1080=494
 Width 1920=700
 
 [Favorite Profiles]
-Favorites=green soothing.profile,soothing.profile,Palenlight.profile,Main profile.profile
+Favorites=green soothing.profile,Main profile.profile,soothing.profile,Palenlight.profile
 
 [KFileDialog Settings]
 iconViewIconSize=43
@@ -14,8 +14,9 @@ iconViewIconSize=43
 [MainWindow]
 Height 1080=1054
 Height 900=502
-State=AAAA/wAAAAD9AAAAAAAAA68AAAQAAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB14AAAQAAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1600=641
 Width 1920=943
+Window-Maximized 1080x1920=true
 Window-Maximized 900x1600=true
