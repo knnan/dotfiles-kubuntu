@@ -183,12 +183,18 @@ acs() {
     apt-cache search $1
 }
 
-cs() {
-  cd $1
-  ls
+cl() {
+    cd $1
+    ls -1
 }
 
 #function cd() { builtin cd "$@" && ls ; };
+
+vif()
+{
+    nvim $(fzf)
+}
+
 
 
 clip()
