@@ -1,40 +1,54 @@
 call plug#begin()
-"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'zchee/deoplete-jedi'
+
+" formatting and cursor plugins
 Plug 'jiangmiao/auto-pairs'
 Plug 'sbdchd/neoformat'
 Plug 'scrooloose/nerdtree'
 Plug 'terryma/vim-multiple-cursors'
+
+" fuzzy finder plugin
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+
+" plugin to set search directory to the closes root of the closest git project
 Plug 'https://github.com/airblade/vim-rooter'
+
+" improved incremental search plugin
+Plug 'haya14busa/incsearch.vim'
+
+" autocompletion plugin
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" colorscheme plugins
 Plug 'sainnhe/forest-night'
 Plug 'ayu-theme/ayu-vim' 
 Plug 'chriskempson/base16-vim'
 Plug 'drewtempelmeyer/palenight.vim'
+Plug 'rakr/vim-one'
+
+" airline themes plugins
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
+
+" look and feel configuration
 set termguicolors     " enable true colors support
 set background=dark
 
-"config For ayu them uncommen the Below
+" config for ayu theme
 let ayucolor="dark"   " for dark version of theme
-colorscheme ayu
 
+" config for palenight theme
 
-"configuration for palenight
-colorscheme palenight
-
-
-
-" the configuration options should be placed before `colorscheme forest-night`
+" config for forest_night theme (configuration options should be placed before `colorscheme forest-night`)
 let g:forest_night_enable_italic = 1
 let g:forest_night_disable_italic_comment = 1
 
-"colorscheme forest-night
-
+colorscheme forest-night
+colorscheme palenight
+colorscheme ayu
+colorscheme one
 
 let g:airline_theme = "palenight"
 "let g:airline_theme = 'forest_night'
@@ -66,6 +80,18 @@ let g:jedi#use_splits_not_buffers = "right"
 let mapleader=";"
 
 
+
+
+" :h g:incsearch#auto_nohlsearch
+set hlsearch
+let g:incsearch#auto_nohlsearch = 1
+map n  <Plug>(incsearch-nohl-n)
+map N  <Plug>(incsearch-nohl-N)
+map *  <Plug>(incsearch-nohl-*)
+map #  <Plug>(incsearch-nohl-#)
+map g* <Plug>(incsearch-nohl-g*)
+map g# <Plug>(incsearch-nohl-g#)
+
 " Spaces & Tabs {{{
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
@@ -77,87 +103,42 @@ set copyindent      " copy indent from the previous line
 
 " NerdTree configuration
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" nmap <C-f> :NERDTreeToggle<CR> 
+" map <C-h> <C-w>h
+" map <C-j> <C-w>j
+" map <c-k> <C-w>k
+" map <c-l> <C-w>l
+
+" Editor keybindings
+nnoremap <S-Up> :m-2<CR>
+nnoremap <S-Down> :m+<CR>
+inoremap <S-Up> <Esc>:m-2<CR>
+inoremap <S-Down> <Esc>:m+<CR>
 
 
+nnoremap <C-S-k> dd
+inoremap <C-S-k> <Esc>dd
+nnoremap <S-left> 0
+inoremap <S-left> <Esc>0
 
-"key mappings
-nmap <C-f> :NERDTreeToggle<CR> 
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <c-k> <C-w>k
-map <c-l> <C-w>l
-map <C-p> :Files<CR> 
+nnoremap <S-right> $
+inoremap <S-right> <Esc>$
+
+nnoremap <C-S-d> yyp
+inoremap <S-left> <Esc>yyp
+
+"inoremap <S-Up> <Esc>:m-2<CR>
+"inoremap <S-Down> <Esc>:m+<CR>
+
+
+nnoremap <C-p> :Files<CR> 
+nnoremap <C-o> :Buffers<CR> 
+nnoremap <C-f> :Rg<CR> 
 inoremap jj <ESC>
-nmap <leader><leader> :Buffers<CR>
-
-" deoplete configuration
-
-" TextEdit might fail if hidden is not set.
-set hidden
-
-" Some servers have issues with backup files, see #649.
-set nobackup
-set nowritebackup
-
-" Give more space for displaying messages.
-set cmdheight=2
-
-" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
-" delays and poor user experience.
-set updatetime=300
-
-" Don't pass messages to |ins-completion-menu|.
-set shortmess+=c
-
-" Always show the signcolumn, otherwise it would shift the text each time
-" diagnostics appear/become resolved.
-if has("patch-8.1.1564")
-  " Recently vim can merge signcolumn and number column into one
-  set signcolumn=number
-else
-  set signcolumn=yes
-endif
-
-" Use tab for trigger completion with characters ahead and navigate.
-" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
-" other plugin before putting this into your config.
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
-
-" Use <c-space> to trigger completion.
-inoremap <silent><expr> <c-space> coc#refresh()
-
-" Use <cr> to confirm completion, `<C-g>u` means break undo chain at current
-" position. Coc only does snippet and additional edit on confirm.
-" <cr> could be remapped by other vim plugin, try `:verbose imap <CR>`.
-if exists('*complete_info')
-  inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
-else
-  inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-endif
-
-" Use `[g` and `]g` to navigate diagnostics
-" Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
-
-" GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
+" nnoremap <leader><leader> :Buffers<CR>
 
 
-"deoplete configuration end
-
+source $HOME/.config/nvim/module_configs/coc.vim
 
 
 

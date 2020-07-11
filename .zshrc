@@ -85,11 +85,29 @@ SAVEHIST=999999
 plugins=(git zsh-autosuggestions virtualenv virtualenvwrapper docker docker-compose fzf)
 
 
+# FZF configuration
+
+alias fd="fdfind"
+
 # Setting rg as the default source for fzf
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow -g "!{.git,node_modules}/*" 2> /dev/null'
 
-# To apply the command to CTRL-T as well
-# export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+# Options to fzf command
+export FZF_COMPLETION_OPTS='+c -x'
+
+# Use fd (https://github.com/sharkdp/fd) instead of the default find
+# command for listing path candidates.
+# - The first argument to the function ($1) is the base path to start traversal
+# - See the source code (completion.{bash,zsh}) for the details.
+_fzf_compgen_path() {
+  fd --hidden --follow --exclude ".git" --exclude "node_modules" . "$1"
+}
+
+# Use fd to generate the list for directory completion
+_fzf_compgen_dir() {
+  fd --type d --hidden --follow --exclude ".git" --exclude "node_modules" . "$1"
+}
 
 source $ZSH/oh-my-zsh.sh
 source /usr/share/doc/fzf/examples/key-bindings.zsh
@@ -149,14 +167,15 @@ alias viconfig="vi ~/.config/nvim/init.vim"
 alias reload="source ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
 alias python=python3
 alias xclip="xclip -selection c"
 alias -g G=" | grep"
 alias vpn_connect="sudo openvpn --config /home/knnan/.local/share/networkmanagement/certificates/client.ovpn  --auth-user-pass /home/knnan/.local/share/networkmanagement/certificates/pass.txt"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 if type nvim > /dev/null 2>&1; then
-	alias vim='nvim'
-	alias vi='nvim'
+    alias vim='nvim'
+    alias vi='nvim'
 fi
 
 
