@@ -32,9 +32,15 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
+
+
 " look and feel configuration
 set termguicolors     " enable true colors support
 set background=dark
+
+
+
+
 
 " config for ayu theme
 let ayucolor="dark"   " for dark version of theme
@@ -48,6 +54,7 @@ let g:forest_night_disable_italic_comment = 1
 colorscheme forest-night
 colorscheme palenight
 colorscheme one
+colorscheme base16-material-palenight
 colorscheme ayu
 
 let g:airline_theme = "palenight"
@@ -59,7 +66,6 @@ set guicursor=
 set cursorline
 set number
 
-let g:deoplete#enable_at_startup = 1
 
 " Enable alignment
 let g:neoformat_basic_format_align = 1
@@ -70,14 +76,10 @@ let g:neoformat_basic_format_retab = 1
 " Enable trimmming of trailing whitespace
 let g:neoformat_basic_format_trim = 1
 
-" disable autocompletion, cause we use deoplete for completion
-let g:jedi#completions_enabled = 0
-
-" open the go-to function in split, not another buffer
-let g:jedi#use_splits_not_buffers = "right"
-
-
 let mapleader=";"
+
+" vim-rooter configs
+let g:rooter_change_directory_for_non_project_files = 'home'
 
 
 
@@ -137,7 +139,7 @@ nnoremap <C-f> :Rg<CR>
 inoremap jj <ESC>
 " nnoremap <leader><leader> :Buffers<CR>
 
-
+" coc configs
 source $HOME/.config/nvim/module_configs/coc.vim
 
 
