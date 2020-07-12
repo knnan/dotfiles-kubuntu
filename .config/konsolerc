@@ -6,7 +6,7 @@ Height 1080=494
 Width 1920=700
 
 [Favorite Profiles]
-Favorites=green soothing.profile,Palenlight.profile,Main profile.profile,soothing.profile
+Favorites=Palenlight.profile,Main profile.profile,soothing.profile,green soothing.profile
 
 [KFileDialog Settings]
 iconViewIconSize=43
@@ -14,7 +14,7 @@ iconViewIconSize=43
 [MainWindow]
 Height 1080=694
 Height 900=874
-State=AAAA/wAAAAD9AAAAAAAAB14AAAQAAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAw8AAANMAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1600=783
 Width 1920=1257

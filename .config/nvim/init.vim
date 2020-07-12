@@ -129,8 +129,14 @@ inoremap <S-right> <Esc>$
 nnoremap <C-S-d> yyp
 inoremap <S-left> <Esc>yyp
 
-"inoremap <S-Up> <Esc>:m-2<CR>
-"inoremap <S-Down> <Esc>:m+<CR>
+
+" Alternate way to save
+" Alternate way to quit
+nnoremap <C-Q> :wq!<CR>
+
+" Use control-c instead of escape
+nnoremap <C-c> <Esc>
+
 
 
 nnoremap <C-p> :Files<CR> 
@@ -141,6 +147,7 @@ inoremap jj <ESC>
 
 " coc configs
 source $HOME/.config/nvim/module_configs/coc.vim
+nnoremap <C-s> :w<CR>
 
 
 
