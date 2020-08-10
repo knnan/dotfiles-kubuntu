@@ -53,9 +53,9 @@ let g:forest_night_disable_italic_comment = 1
 
 colorscheme forest-night
 colorscheme palenight
-colorscheme one
 colorscheme base16-material-palenight
 colorscheme ayu
+colorscheme one
 
 let g:airline_theme = "palenight"
 "let g:airline_theme = 'forest_night'

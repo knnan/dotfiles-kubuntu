@@ -13,7 +13,6 @@ DefaultProfile=Main profile.profile
 
 [DetailsMode]
 FontWeight=50
-PreviewSize=32
 
 [Favorite Profiles]
 Favorites=
@@ -34,18 +33,17 @@ PreviewSize=48
 
 [KPropertiesDialog]
 Height 1080=518
-Height 900=518
+Height 900=484
 Width 1600=471
 Width 1920=471
 
 [MainWindow]
-Height 1080=1054
+Height 1080=690
 Height 900=874
-State=AAAA/wAAAAD9AAAAAwAAAAAAAADrAAAD2vwCAAAAAvsAAAAUAHAAbABhAGMAZQBzAEQAbwBjAGsBAAAARAAAA9oAAABdAQAAA/sAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAADAAAAAQAAALgAAANE/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAGHgAAAOH8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAGHgAAAAoBAAADAAAGcgAAA9oAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADSAAADJvwCAAAAAvsAAAAUAHAAbABhAGMAZQBzAEQAbwBjAGsBAAAARAAAAyYAAABdAQAAA/sAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAADAAAAAQAAALgAAANE/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAGHgAAAOH8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAGHgAAAAoBAAADAAAFTQAAAyYAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1600=1566
-Width 1920=1886
-Window-Maximized 1080x1920=true
+Width 1920=1249
 Window-Maximized 900x1600=true
 
 [Notification Messages]
@@ -53,13 +51,10 @@ ConfirmDelete=true
 
 [Open-with settings]
 CompletionMode=1
-History=dol,ark,vlc,typo,eli
+History=sub,subl,subli,dol,ark,vlc,typo,eli
 
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
-
-[Search]
-Location=Everywhere
 
 [SettingsDialog]
 Height 900=456

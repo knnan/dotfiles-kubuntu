@@ -1,5 +1,6 @@
 [Appearance]
 ColorScheme=dracular dark changed
+Font=Hack,9,-1,5,75,0,0,0,0,0,Bold
 
 [Cursor Options]
 CursorShape=1
