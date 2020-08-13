@@ -148,6 +148,3 @@ inoremap jj <ESC>
 " coc configs
 source $HOME/.config/nvim/module_configs/coc.vim
 nnoremap <C-s> :w<CR>
-
-
-

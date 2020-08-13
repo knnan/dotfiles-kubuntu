@@ -43,6 +43,6 @@ sudo apt install fsearch
 
 git clone https://github.com/knnan/dotfiles.git ~/Downloads/dotfiles
 cd ~/Downloads/dotfiles
-rsync -av --exclude "~/Downloads/dotfiles/.git" ~/Downloads/dotfiles ~
+rsync -av --exclude "~/Downloads/dotfiles/.git" . ~
 sudo reboot
 
