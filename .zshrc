@@ -10,7 +10,7 @@ export PATH
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir virtualenv vcs newline)
 
 
@@ -82,7 +82,11 @@ SAVEHIST=999999
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions virtualenv virtualenvwrapper docker docker-compose fzf)
+
+#plugins=(git zsh-autosuggestions virtualenv virtualenvwrapper docker docker-compose fzf)
+
+# Minimum plugins
+plugins=( zsh-autosuggestions fzf)
 
 
 # FZF configuration
