@@ -40,17 +40,18 @@ Width 1920=471
 [MainWindow]
 Height 1080=690
 Height 900=690
-State=AAAA/wAAAAD9AAAAAwAAAAAAAADSAAACbvwCAAAAAvsAAAAUAHAAbABhAGMAZQBzAEQAbwBjAGsBAAAARAAAAm4AAABdAQAAA/sAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAADAAAAAQAAALgAAANE/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAE4QAAAOH8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAE4QAAAAoBAAADAAAEDgAAAm4AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADSAAACbvwCAAAAAvsAAAAUAHAAbABhAGMAZQBzAEQAbwBjAGsBAAAARAAAAm4AAABdAQAAA/sAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAADAAAAAQAAALgAAANE/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAHXgAAAOH8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHXgAAAAoBAAADAAAEDgAAAm4AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1600=1249
 Width 1920=1249
+Window-Maximized 1080x1920=true
 
 [Notification Messages]
 ConfirmDelete=true
 
 [Open-with settings]
 CompletionMode=1
-History=sub,subl,subli,dol,ark,vlc,typo,eli
+History=t,sub,subl,subli,dol,ark,vlc,typo,eli
 
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
