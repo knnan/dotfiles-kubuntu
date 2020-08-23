@@ -205,7 +205,20 @@ vif()
     nvim $(fzf)
 }
 
-
+run()
+{
+    curfile=$1
+    extension="${curfile##*.}"
+    base_curfile="${curfile%.*}"
+    #echo $base_curfile
+    if [ "$extension" = 'cpp' ];
+    then
+    g++ $base_curfile.cpp -o $base_curfile.out && ./$base_curfile.out
+    elif [ "$extension" = 'py' ];
+    then
+        python3 "$curfile"
+    fi
+}
 
 clip()
 {
