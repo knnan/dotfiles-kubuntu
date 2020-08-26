@@ -4,6 +4,8 @@
 # Path to your oh-my-zsh installation.
 export TERM="xterm-256color"
 export ZSH="/home/knnan/.oh-my-zsh"
+export SPICETIFY_INSTALL="/home/knnan/spicetify-cli"
+export PATH="$SPICETIFY_INSTALL:$PATH"
 PATH=/bin:/usr/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.ssh:$HOME/.cargo/bin:${PATH}
 export PATH
 # Set name of the theme to load --- if set to "random", it will

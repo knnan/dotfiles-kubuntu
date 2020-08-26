@@ -115,6 +115,7 @@ History Items[$e]=file:///media,file:///media/knnan/F/Animes/Everybody hates chr
 BrowserApplication=google-chrome.desktop
 ColorScheme=OneDarkCustomFinal
 Name=One Dark
+font=Iosevka,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
 widgetStyle=Breeze
 
