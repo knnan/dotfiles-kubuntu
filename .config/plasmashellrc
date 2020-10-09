@@ -24,14 +24,15 @@ CompletionMode=1
 History=dis
 
 [PlasmaRunnerManager]
-LaunchCounts=1 services_vlc.desktop,5 services_org.kde.dolphin.desktop,1 services_componentchooser.desktop,1 services_org.kde.plasma.themeexplorer.desktop,2 services_gparted.desktop,2 services_org.kde.elisa.desktop,3 services_org.kde.ktorrent.desktop,2 services_postman.desktop,1 bookmarks_https://devdocs.io/,2 services_wallpapercreator.desktop,1 services_kcm_colors.desktop,19 services_google-chrome.desktop,7 services_org.kde.partitionmanager.desktop,7 services_spotify.desktop,1 services_kazam.desktop,2 services_chrome-hmjkmjkepdijhoojdojkdfohbdgmmhki-Default.desktop,10 services_about-distro.desktop,1 bookmarks_http://codepen.io/jakealbaugh/full/qNrZyw,1 services_org.kde.muon.desktop,8 services_firefox.desktop,3 services_sublime_merge.desktop,7 services_telegramdesktop.desktop,12 services_typora.desktop,1 services_org.kde.kcalc.desktop,8 services_tlpui.desktop,3 services_spek.desktop,1 services_wallch-nautilus.desktop,3 services_net.sourceforge.kid3.desktop,1 services_org.kde.filelight.desktop,2 services_audacity.desktop,1 services_kwalletconfig5.desktop,2 services_gimp.desktop,3 services_virtualbox.desktop,32 services_slack.desktop,1 baloosearch_/home/knnan/Documents/AnyDesk,1 bookmarks_https://forum.hovatek.com/thread-439.html,1 services_org.kde.rsibreak.desktop,8 services_megasync.desktop,2 services_org.kde.ksysguard.desktop,1 bookmarks_http://indiaexam.in/computer-science-project,4 services_kodi.desktop,4 services_komorebi.desktop,3 services_org.kde.discover.desktop,9 services_sublime_text.desktop,1 services_org.gnome.Lollypop.desktop,17 services_systemsettings.desktop,3 services_org.musicbrainz.Picard.desktop,3 services_fsearch.desktop,18 services_code.desktop,9 services_multibootusb.desktop
+LaunchCounts=1 services_kcm_colors.desktop,52 services_slack.desktop,6 services_org.kde.discover.desktop,7 services_anydesk.desktop,21 services_code.desktop,1 services_org.kde.rsibreak.desktop,4 services_org.kde.ktorrent.desktop,8 services_spotify.desktop,2 services_org.kde.kcalc.desktop,2 services_org.kde.elisa.desktop,9 services_telegramdesktop.desktop,10 services_megasync.desktop,19 services_google-chrome.desktop,2 services_chrome-hmjkmjkepdijhoojdojkdfohbdgmmhki-Default.desktop,1 services_org.gnome.seahorse.Application.desktop,1 services_kazam.desktop,1 services_org.kde.muon.desktop,2 services_gimp.desktop,5 services_gparted.desktop,10 services_about-distro.desktop,2 services_wallpapercreator.desktop,1 services_rhythmbox.desktop,12 services_tlpui.desktop,1 baloosearch_/home/knnan/Documents/AnyDesk,12 services_typora.desktop,4 services_audacity.desktop,1 services_kwalletconfig5.desktop,1 bookmarks_http://codepen.io/jakealbaugh/full/qNrZyw,1 services_wps-office-wps.desktop,12 services_firefox.desktop,5 services_kodi.desktop,1 services_wallch-nautilus.desktop,12 services_sublime_text.desktop,1 services_org.kde.plasma.themeexplorer.desktop,1 services_componentchooser.desktop,1 baloosearch_/home/knnan/Downloads/tessera-slack,3 services_net.sourceforge.kid3.desktop,1 services_org.kde.okular.desktop,3 services_postman.desktop,1 bookmarks_http://indiaexam.in/computer-science-project,3 services_xdman.desktop,3 services_org.musicbrainz.Picard.desktop,6 services_org.kde.dolphin.desktop,7 services_org.kde.partitionmanager.desktop,3 services_sublime_merge.desktop,1 services_wps-office-et.desktop,1 services_org.gnome.Lollypop.desktop,4 services_komorebi.desktop,5 services_virtualbox.desktop,3 services_fsearch.desktop,20 services_systemsettings.desktop,1 bookmarks_https://devdocs.io/,1 services_org.kde.filelight.desktop,4 services_discord.desktop,3 services_spek.desktop,1 services_vlc.desktop,3 services_org.kde.ksysguard.desktop,10 services_multibootusb.desktop,1 bookmarks_https://forum.hovatek.com/thread-439.html
 pluginWhiteList=services,shell,bookmarks,baloosearch,locations
 
 [PlasmaViews][Panel 2]
+alignment=1
 panelVisibility=0
 
 [PlasmaViews][Panel 2][Defaults]
-thickness=32
+thickness=34
 
 [PlasmaViews][Panel 2][Horizontal1600]
 thickness=36
@@ -43,10 +44,10 @@ thickness=34
 thickness=32
 
 [ScreenConnectors]
-0=eDP-1
-1=HDMI-1
+0=HDMI-1
+1=:0.0
 2=DP-2
-3=:0.0
+3=eDP-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js

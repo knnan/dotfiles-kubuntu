@@ -5,4 +5,4 @@ update_info=kscreenlocker.upd:0.1-autolock
 Theme=OneDark
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=file:///home/knnan/Downloads/Photos/FWG_2560x1440.jpg
+Image=/home/knnan/Downloads/Photos/FWG_2560x1440.jpg

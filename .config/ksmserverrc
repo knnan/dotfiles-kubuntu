@@ -2,52 +2,29 @@
 update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
 
 [LegacySession: saved at previous logout]
-clientMachine1=localhost
-command1=lollypop
-count=1
+count=0
 
 [Session: saved at previous logout]
-clientId1=101d71a218a1e0000159722472900000016410041
-clientId2=101d71a218a1e0000159837195200000015420005
-clientId3=101d71a218a1e0000159840015100000017610008
-clientId4=101d71a218a1e0000159833585800000015020020
-clientId5=101d71a218a1e0000159845967000000017610033
-clientId6=101d71a218a1e0000159848859700000017610040
-count=6
-discardCommand1[$e]=rm,$HOME/.config/session/kwin_101d71a218a1e0000159722472900000016410041_1598492413_871616
-discardCommand4[$e]=rm,$HOME/.config/session/konsole_101d71a218a1e0000159833585800000015020020_1598492412_877670
-discardCommand5[$e]=rm,$HOME/.config/session/dolphin_101d71a218a1e0000159845967000000017610033_1598492412_877068
-discardCommand6[$e]=rm,$HOME/.config/session/konsole_101d71a218a1e0000159848859700000017610040_1598492412_878782
+clientId1=101d71a218a1e0000160196561100000016300013
+clientId2=101d71a218a1e0000160221017200000015260005
+clientId3=101d71a218a1e0000160221017200000015260008
+count=3
+discardCommand1[$e]=rm,$HOME/.config/session/kwin_101d71a218a1e0000160196561100000016300013_1602210289_475968
 program1=/usr/bin/kwin_x11
 program2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
 program3=pulseaudio
-program4=/usr/bin/konsole
-program5=/usr/bin/dolphin
-program6=/usr/bin/konsole
-restartCommand1=/usr/bin/kwin_x11,-session,101d71a218a1e0000159722472900000016410041_1598492413_871616
-restartCommand2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000159837195200000015420005_1598492412_877449
+restartCommand1=/usr/bin/kwin_x11,-session,101d71a218a1e0000160196561100000016300013_1602210289_475968
+restartCommand2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000160221017200000015260005_1602210289_471689
 restartCommand3=
-restartCommand4=/usr/bin/konsole,-session,101d71a218a1e0000159833585800000015020020_1598492412_877670
-restartCommand5=/usr/bin/dolphin,-session,101d71a218a1e0000159845967000000017610033_1598492412_877068
-restartCommand6=/usr/bin/konsole,-session,101d71a218a1e0000159848859700000017610040_1598492412_878782
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
-restartStyleHint4=0
-restartStyleHint5=0
-restartStyleHint6=0
 userId1=knnan
 userId2=knnan
 userId3=knnan
-userId4=knnan
-userId5=knnan
-userId6=knnan
 wasWm1=true
 wasWm2=false
 wasWm3=false
-wasWm4=false
-wasWm5=false
-wasWm6=false
 
 [SubSession: b74be856-2c8f-4cfd-a3e3-b422a76c599d]
 count=0

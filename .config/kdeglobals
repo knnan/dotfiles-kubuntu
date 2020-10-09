@@ -108,8 +108,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=852,598
-History Items[$e]=file:///media,file:///media/knnan/F/Animes/Everybody hates chris,file:///media/knnan/F/Kiran/Music,file:///media/knnan/F/Kiran/Music/Processing Tracks,file:$HOME/Downloads/music_downloads,file:///media/knnan/F/Animes,file:///media/knnan/E/Software,file:///media/knnan/E/Software/VIRTUAL MACHINES,file:///media/knnan/F/Animes/Harry Potter,file:$HOME/Downloads/Chromium.Web.Store,file:$HOME/Downloads/chromium-web-store-1.0.0,file:///media/knnan/F/Music,file:///media/knnan/F/Animes/Pokemon (1998) Seasons 1-14 -E.Rev 480p x264 MKV,file:///media/knnan/F/Animes/Beyblade,file:///media/knnan/F/Animes/Justice League All Seasons 1 2 3 4 5 Complete 720p MKV vk007
+DirSelectDialog Size=866,596
+History Items[$e]=file:///media/knnan/F/Animes,file:///media/knnan/F/Animes/Modern Family,file:///media/knnan/F/Animes/seven deadly sings,file:///media,file:///media/knnan/F/Animes/Everybody hates chris,file:///media/knnan/F/Kiran/Music,file:///media/knnan/F/Kiran/Music/Processing Tracks,file:$HOME/Downloads/music_downloads,file:///media/knnan/E/Software,file:///media/knnan/E/Software/VIRTUAL MACHINES,file:///media/knnan/F/Animes/Harry Potter,file:$HOME/Downloads/Chromium.Web.Store,file:$HOME/Downloads/chromium-web-store-1.0.0,file:///media/knnan/F/Music,file:///media/knnan/F/Animes/Pokemon (1998) Seasons 1-14 -E.Rev 480p x264 MKV,file:///media/knnan/F/Animes/Beyblade,file:///media/knnan/F/Animes/Justice League All Seasons 1 2 3 4 5 Complete 720p MKV vk007
 
 [General]
 BrowserApplication=google-chrome.desktop
