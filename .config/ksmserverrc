@@ -2,29 +2,45 @@
 update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
 
 [LegacySession: saved at previous logout]
-count=0
+clientMachine1=localhost
+command1=sublime_text
+count=1
 
 [Session: saved at previous logout]
 clientId1=101d71a218a1e0000160196561100000016300013
-clientId2=101d71a218a1e0000160221017200000015260005
-clientId3=101d71a218a1e0000160221017200000015260008
-count=3
-discardCommand1[$e]=rm,$HOME/.config/session/kwin_101d71a218a1e0000160196561100000016300013_1602210289_475968
+clientId2=101d71a218a1e0000160221032500000014930006
+clientId3=101d71a218a1e0000160221032500000014930008
+clientId4=101d71a218a1e0000160221220400000014930017
+clientId5=101d71a218a1e0000160224470900000014930022
+count=5
+discardCommand1[$e]=rm,$HOME/.config/session/kwin_101d71a218a1e0000160196561100000016300013_1602266569_853012
+discardCommand4[$e]=rm,$HOME/.config/session/dolphin_101d71a218a1e0000160221220400000014930017_1602266568_864556
+discardCommand5[$e]=rm,$HOME/.config/session/konsole_101d71a218a1e0000160224470900000014930022_1602266568_864913
 program1=/usr/bin/kwin_x11
 program2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
 program3=pulseaudio
-restartCommand1=/usr/bin/kwin_x11,-session,101d71a218a1e0000160196561100000016300013_1602210289_475968
-restartCommand2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000160221017200000015260005_1602210289_471689
+program4=/usr/bin/dolphin
+program5=/usr/bin/konsole
+restartCommand1=/usr/bin/kwin_x11,-session,101d71a218a1e0000160196561100000016300013_1602266569_853012
+restartCommand2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000160221032500000014930006_1602266568_864427
 restartCommand3=
+restartCommand4=/usr/bin/dolphin,-session,101d71a218a1e0000160221220400000014930017_1602266568_864556
+restartCommand5=/usr/bin/konsole,-session,101d71a218a1e0000160224470900000014930022_1602266568_864913
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
+restartStyleHint4=0
+restartStyleHint5=0
 userId1=knnan
 userId2=knnan
 userId3=knnan
+userId4=knnan
+userId5=knnan
 wasWm1=true
 wasWm2=false
 wasWm3=false
+wasWm4=false
+wasWm5=false
 
 [SubSession: b74be856-2c8f-4cfd-a3e3-b422a76c599d]
 count=0

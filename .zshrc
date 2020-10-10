@@ -88,7 +88,7 @@ SAVEHIST=999999
 #plugins=(git zsh-autosuggestions virtualenv virtualenvwrapper docker docker-compose fzf)
 
 # Minimum plugins
-plugins=( zsh-autosuggestions fzf)
+plugins=( zsh-autosuggestions fzf fzf-tab)
 
 
 # FZF configuration
