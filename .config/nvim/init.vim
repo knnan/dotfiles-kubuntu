@@ -25,6 +25,9 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'chriskempson/base16-vim'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'rakr/vim-one'
+Plug 'mhartington/oceanic-next'
+
+Plug 'morhetz/gruvbox'
 
 " airline themes plugins
 Plug 'vim-airline/vim-airline'
@@ -43,6 +46,8 @@ set background=dark
 
 
 " config for ayu theme
+let ayucolor="light"  " for light version of theme
+let ayucolor="mirage" " for mirage version of theme
 let ayucolor="dark"   " for dark version of theme
 
 " config for palenight theme
@@ -51,14 +56,19 @@ let ayucolor="dark"   " for dark version of theme
 let g:forest_night_enable_italic = 1
 let g:forest_night_disable_italic_comment = 1
 
-colorscheme ayu
-colorscheme one
-colorscheme palenight
 colorscheme base16-material-palenight
 colorscheme forest-night
+colorscheme one
+colorscheme palenight
+colorscheme gruvbox
+colorscheme ayu
+colorscheme OceanicNext
 
+let g:airline_theme = 'forest_night'
+let g:airline_theme = "ayu"
+let g:airline_theme = "OceanicNext"
+let g:airline_theme = "one"
 let g:airline_theme = "palenight"
-"let g:airline_theme = 'forest_night'
 
 
 syntax on
