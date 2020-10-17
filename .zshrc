@@ -5,8 +5,10 @@
 export TERM="xterm-256color"
 export ZSH="/home/knnan/.oh-my-zsh"
 export SPICETIFY_INSTALL="/home/knnan/spicetify-cli"
+
+
 export PATH="$SPICETIFY_INSTALL:$PATH"
-PATH=/bin:/usr/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.ssh:$HOME/.cargo/bin:${PATH}
+PATH=/bin:/usr/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.ssh:$HOME/.cargo/bin:/usr/local/go/bin:${PATH}
 export PATH
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -106,6 +108,8 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
 --color=dark
 --color=fg:-1,bg:-1,hl:#c678dd,fg+:#ffffff,bg+:#4b5263,hl+:#d858fe
 --color=info:#98c379,prompt:#61afef,pointer:#be5046,marker:#e5c07b,spinner:#61afef,header:#61afef
+-m
+--layout=reverse
 '
 
 # Use fd (https://github.com/sharkdp/fd) instead of the default find

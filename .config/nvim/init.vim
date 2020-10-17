@@ -51,11 +51,11 @@ let ayucolor="dark"   " for dark version of theme
 let g:forest_night_enable_italic = 1
 let g:forest_night_disable_italic_comment = 1
 
-colorscheme forest-night
-colorscheme palenight
-colorscheme base16-material-palenight
 colorscheme ayu
 colorscheme one
+colorscheme palenight
+colorscheme base16-material-palenight
+colorscheme forest-night
 
 let g:airline_theme = "palenight"
 "let g:airline_theme = 'forest_night'
@@ -111,27 +111,26 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " map <c-k> <C-w>k
 " map <c-l> <C-w>l
 
-" Editor keybindings
-nnoremap <S-Up> :m-2<CR>
-nnoremap <S-Down> :m+<CR>
-inoremap <S-Up> <Esc>:m-2<CR>
-inoremap <S-Down> <Esc>:m+<CR>
+" Editor keybindingss
+nnoremap <C-S-Up> :m-2<CR>i
+nnoremap <C-S-Down> :m+<CR>i
+inoremap <C-S-Up> <Esc>:m-2<CR>i
+inoremap <C-S-Down> <Esc>:m+<CR>i
 
 
-nnoremap <C-S-k> dd
-inoremap <C-S-k> <Esc>dd
-nnoremap <S-left> 0
-inoremap <S-left> <Esc>0
+nnoremap <C-S-k> ddi
+inoremap <C-S-k> <Esc>ddi
+nnoremap <C-S-left> 0i
+inoremap <C-S-left> <Esc>0i
 
-nnoremap <S-right> $
-inoremap <S-right> <Esc>$
+nnoremap <C-S-right> $i
+inoremap <C-S-right> <Esc>$i
 
-nnoremap <C-S-d> yyp
-inoremap <S-left> <Esc>yyp
+nnoremap <C-S-d> yypi
+inoremap <C-S-d> <Esc>yypi
 
 
-" Alternate way to save
-" Alternate way to quit
+" Alternate way to save and quit
 nnoremap <C-Q> :wq!<CR>
 
 " Use control-c instead of escape

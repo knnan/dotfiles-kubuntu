@@ -61,26 +61,26 @@ marginSize=26
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][55]
-immutability=1
-plugin=org.kde.plasma.kicker
-
-[Containments][2][Applets][55][Configuration]
-PreloadWeight=92
-
-[Containments][2][Applets][55][Configuration][General]
-favoritesPortedToKAstats=true
-
-[Containments][2][Applets][55][Shortcuts]
-global=Alt+F1
-
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=97
+PreloadWeight=84
 SystrayContainmentId=7
+
+[Containments][2][Applets][65]
+immutability=1
+plugin=org.kde.plasma.kicker
+
+[Containments][2][Applets][65][Configuration]
+PreloadWeight=97
+
+[Containments][2][Applets][65][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][2][Applets][65][Shortcuts]
+global=Alt+F1
 
 [Containments][2][Applets][9]
 immutability=1
@@ -94,14 +94,14 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][ConfigDialog]
-DialogHeight=900
+DialogHeight=1080
 DialogWidth=166
 
 [Containments][2][Configuration]
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=55;22;28;6;31;9
+AppletOrder=65;22;28;6;31;9
 
 [Containments][59]
 activityId=6dd72cac-7d49-45c0-9c12-635f55a97755
@@ -113,7 +113,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][59][Configuration]
-PreloadWeight=34
+PreloadWeight=0
 
 [Containments][59][Wallpaper][org.kde.image][General]
 Image=file:///home/knnan/Downloads/Photos/FWG_2560x1440.jpg
@@ -128,13 +128,13 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][60][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][60][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
 
 [Containments][62]
-ItemGeometriesHorizontal=Applet-61:784,96,400,160,0;
+ItemGeometriesHorizontal=Applet-61:544,80,400,160,0;
 activityId=6dd72cac-7d49-45c0-9c12-635f55a97755
 formfactor=0
 immutability=1
@@ -148,7 +148,7 @@ immutability=1
 plugin=minimalclock
 
 [Containments][62][Applets][61][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][62][Applets][61][Configuration][ConfigDialog]
 DialogHeight=540
@@ -163,10 +163,25 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][62][Configuration]
-PreloadWeight=34
+PreloadWeight=0
 
 [Containments][62][Wallpaper][org.kde.image][General]
 Image=file:///home/knnan/Downloads/Photos/FWG_2560x1440.jpg
+
+[Containments][63]
+activityId=7b864eea-2e02-483c-8ccd-7cfd9a839af4
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][63][Configuration]
+PreloadWeight=2
+
+[Containments][63][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
 
 [Containments][7]
 activityId=
@@ -196,7 +211,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=59
+PreloadWeight=13
 
 [Containments][7][Applets][13]
 immutability=1
@@ -248,14 +263,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][20][Configuration]
-PreloadWeight=0
+PreloadWeight=14
 
 [Containments][7][Applets][21]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][21][Configuration]
-PreloadWeight=5
+PreloadWeight=7
 
 [Containments][7][Applets][24][Configuration]
 PreloadWeight=42
@@ -265,7 +280,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][36][Configuration]
-PreloadWeight=34
+PreloadWeight=19
 
 [Containments][7][Applets][36][Configuration][ConfigDialog]
 DialogHeight=540
@@ -283,7 +298,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][44][Configuration]
-PreloadWeight=0
+PreloadWeight=4
 
 [Containments][7][Applets][44][Configuration][ConfigDialog]
 DialogHeight=540
@@ -317,5 +332,5 @@ textColor=#555555
 textFont=Arial,10,-1,5,50,0,0,0,0,0
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,4,desktop:/chrome-fldfghidoapfhofdjogkhcoildjkoiof-Default.desktop,desktop:/Resume_template_to_edit.doc,desktop:/wps-office-prometheus.desktop,desktop:/problems
+itemsOnDisabledScreens=3,5,desktop:/chrome-pcpcloacpnjpnleijinehhogolpidolp-Default.desktop,desktop:/chrome-fldfghidoapfhofdjogkhcoildjkoiof-Default.desktop,desktop:/Resume_template_to_edit.doc,desktop:/problems,desktop:/wps-office-prometheus.desktop
 screenMapping=
