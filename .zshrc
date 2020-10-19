@@ -204,11 +204,17 @@ cl() {
     ls -1
 }
 
-#function cd() { builtin cd "$@" && ls ; };
+
+
+
 
 vif()
 {
     nvim $(fzf)
+}
+
+cd_with_fzf() {
+    cd $HOME && cd "$(fd -t d | fzf --preview="tree -L 1 {}" --bind="space:toggle-preview" --preview-window=:hidden)" && echo "$PWD" && tree -L 1 --dirsfirst
 }
 
 run()
@@ -230,3 +236,10 @@ clip()
 {
   cat $1 | xclip -selection c
 }
+
+
+# keybindings
+zle -N cd_with_fzf
+bindkey '^F' cd_with_fzf  
+
+

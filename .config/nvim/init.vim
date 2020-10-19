@@ -16,6 +16,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " language packs plugin
 Plug 'sheerun/vim-polyglot'
 
+" quoting/and paranthesis plugin
+Plug 'tpope/vim-surround'
+
+" plugin for commengin
+Plug 'tpope/vim-commentary'
+
 " colorscheme plugins
 Plug 'sainnhe/forest-night'
 Plug 'ayu-theme/ayu-vim' 
@@ -35,48 +41,47 @@ call plug#end()
 " set leader key
 let g:mapleader = "\<Space>"
 
-syntax enable                           " Enables syntax highlighing
-set hidden                              " Required to keep multiple buffers open multiple buffers
-set nowrap                              " Display long lines as just one line
-set encoding=utf-8                      " The encoding displayed
-set guicursor=                          " makes cursor blink and change color
-set ruler              			        " Show the cursor position all the time
-set history=1000                        " remember more commands and search history
-set undolevels=1000                     " use many muchos levels of undo
+syntax enable                                   " Enables syntax highlighing
+set hidden                                      " Required to keep multiple buffers open multiple buffers
+" set nowrap                                      " Display long lines as just one line
+set encoding=utf-8                              " The encoding displayed
+set guicursor=                                  " makes cursor blink and change color
+set ruler              			                " Show the cursor position all the time
+set history=1000                                " remember more commands and search history
+set undolevels=1000                             " use many muchos levels of undo
 set hlsearch
-set iskeyword+=-                      	" treat dash separated words as a word text object"
-set mouse=a                             " Enable your mouse
-set t_Co=256                            " Support 256 colors
-set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
-set tabstop=4                           " number of visual spaces per TAB
-set softtabstop=4                       " number of spaces in tab when editing
-set shiftwidth=4                        " number of spaces to use for autoindent
-set smartindent                         " Makes indenting smart
-set expandtab                           " Converts tabs to spaces
-set autoindent                          " Good auto indent
-set copyindent                          " Copies indentation from the pervious line
-set laststatus=0                        " Always display the status line
-set number                              " Line numbers
-set cursorline                          " Enable highlighting of the current line
-set background=dark                     " tell vim what the background color looks like
-set showtabline=2                       " Always show tabs
-set nobackup                            " This is recommended by coc
-set nowritebackup                       " This is recommended by coc
-set updatetime=300                      " Faster completion
-set timeoutlen=500                      " By default timeoutlen is 1000 ms
-set formatoptions-=cro                  " Stop newline continution of comments
-set clipboard=unnamedplus               " Copy paste between vim and everything else ( sudo apt install xsel )
-set wildignore+=*.pyc,*.swp,*.bak,*/class  " Ignore files matching these patterns when opening files based on a glob pattern
-set backspace=indent,eol,start          " Allow backspacing over indention, line breaks and insertion start
-set inccommand=split                    " interactive search and replace
-set noswapfile                          " Disable swap files.
+set iskeyword+=-                      	        " treat dash separated words as a word text object"
+set mouse=a                                     " Enable your mouse
+set smarttab                                    " Makes tabbing smarter will realize you have 2 vs 4
+set tabstop=4                                   " number of visual spaces per TAB
+set softtabstop=4                               " number of spaces in tab when editing
+set shiftwidth=4                                " number of spaces to use for autoindent
+set smartindent                                 " Makes indenting smart
+set expandtab                                   " Converts tabs to spaces
+set autoindent                                  " Good auto indent
+set copyindent                                  " Copies indentation from the pervious line
+set laststatus=0                                " Always display the status line
+set number                                      " Line numbers
+set cursorline                                  " Enable highlighting of the current line
+set background=dark                             " tell vim what the background color looks like
+set showtabline=2                               " Always show tabs
+set nobackup                                    " This is recommended by coc
+set nowritebackup                               " This is recommended by coc
+set updatetime=300                              " Faster completion
+set timeoutlen=500                              " By default timeoutlen is 1000 ms
+set formatoptions-=cro                          " Stop newline continution of comments
+set clipboard=unnamedplus                       " Copy paste between vim and everything else ( sudo apt install xsel )
+set wildignore+=*.pyc,*.swp,*.bak,*/class       " Ignore files matching these patterns when opening files based on a glob pattern
+set backspace=indent,eol,start                  " Allow backspacing over indention, line breaks and insertion start
+set inccommand=split                            " interactive search and replace
+set number relativenumber                       " sets Hybrid line number
+set smartcase                                   " performs casesensitive search when the search term contains a capital charater otherwise case insensitive search
+set noswapfile                                  " Disable swap files.
 
 cmap w!! w !sudo tee        
 
-
 let g:node_host_prog = expand("~/.nvm/versions/node/v12.18.1/bin/node") " <- example
 let g:mapleader="\<Space>"
-
 
 
 
@@ -149,7 +154,11 @@ let g:neoformat_basic_format_retab = 1
 
 " Enable trimmming of trailing whitespace
 let g:neoformat_basic_format_trim = 1
-
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-s': 'split',
+  \ 'ctrl-v': 'vsplit'
+  \}
 
 " vim-rooter configs
 let g:rooter_change_directory_for_non_project_files = 'home'
@@ -170,6 +179,14 @@ map g# <Plug>(incsearch-nohl-g#)
 
 
 
+
+" fzf configurations
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-s': 'split',
+  \ 'ctrl-v': 'vsplit'
+  \}
+
 " Editor keybindingss
 
 " move line up and down
@@ -181,8 +198,12 @@ inoremap <C-S-Down> <Esc>:m+<CR>i
 " move cursor to beginning or the end of the line
 nnoremap <C-S-left> 0i
 inoremap <C-S-left> <Esc>0i
-nnoremap <C-S-right> $i
-inoremap <C-S-right> <Esc>$i
+nnoremap <C-S-right> $i<right>
+inoremap <C-S-right> <Esc>$i<right>
+
+nnoremap <C-L> i
+inoremap <C-L> <Esc>
+
 
 " delete or duplicate the line
 nnoremap <C-S-k> ddi
@@ -191,22 +212,23 @@ nnoremap <C-S-d> yypi
 inoremap <C-S-d> <Esc>yypi
 
 " Alternate way to save and quit
-nnoremap <C-Q> :wq<CR>
+" nnoremap <C-Q> :wq<CR>
+" Use control-c instead of escape
+" nnoremap <C-c> <Esc>
+" Alternate way to save
+" nnoremap <C-s> :w<CR>
+" inoremap <C-s> <Esc>:w<CR>i
 
 nnoremap <C-W> :bdelete<CR>
-" Use control-c instead of escape
-nnoremap <C-c> <Esc>
-" Alternate way to save
-nnoremap <C-s> :w<CR>
-inoremap <C-s> <Esc>:w<CR>i
-
 
 nnoremap <C-p> :Files<CR>  
 inoremap <C-p> <Esc>:Files<CR> 
 nnoremap <C-o> :Buffers<CR> 
 inoremap <C-o> <Esc>:Buffers<CR> 
-nnoremap <C-f> :Rg<CR> 
-inoremap <C-f> <Esc>:Rg<CR> 
+" nnoremap <C-S-f> :Rg<CR> 
+" inoremap <C-S-f> <Esc>:Rg<CR> 
+nnoremap <C-S-f> :BLines<CR> 
+inoremap <C-S-f> <Esc>:BLines<CR> 
 inoremap jj <ESC>
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
@@ -219,7 +241,9 @@ inoremap <C-Z> <Esc>ui
 nnoremap <C-Y> <C-R>
 inoremap <C-Y> <Esc><C-R>i
 
-
+" mapping leader+ forward slash for commenting
+nnoremap <space>/ :Commentary<CR>
+vnoremap <space>/ :Commentary<CR>
 
 
 
