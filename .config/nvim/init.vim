@@ -201,8 +201,15 @@ inoremap <C-S-left> <Esc>0i
 nnoremap <C-S-right> $i<right>
 inoremap <C-S-right> <Esc>$i<right>
 
-nnoremap <C-L> i
-inoremap <C-L> <Esc>
+nnoremap <C-L> <S-V>
+inoremap <C-L> <Esc><S-V>i
+vnoremap <C-L> <down>
+
+" inoremap <Leader><Leader> <Esc>
+" vnoremap <Leader><Leader> <Esc>
+
+
+
 
 
 " delete or duplicate the line
@@ -229,7 +236,7 @@ inoremap <C-o> <Esc>:Buffers<CR>
 " inoremap <C-S-f> <Esc>:Rg<CR> 
 nnoremap <C-S-f> :BLines<CR> 
 inoremap <C-S-f> <Esc>:BLines<CR> 
-inoremap jj <ESC>
+inoremap jj <Esc>
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back

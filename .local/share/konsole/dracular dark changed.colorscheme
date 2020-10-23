@@ -86,7 +86,7 @@ Color=248,248,242
 Color=248,248,242
 
 [Foreground]
-Color=85,255,127
+Color=174,255,151
 RandomHueRange=360
 RandomSaturationRange=100
 
@@ -104,5 +104,5 @@ RandomSaturationRange=100
 Blur=true
 ColorRandomization=false
 Description=dracular dark changed
-Opacity=1
+Opacity=0.9
 Wallpaper=
