@@ -237,6 +237,15 @@ clip()
   cat $1 | xclip -selection c
 }
 
+dotfiles_add()
+{
+  config status
+  config add -u
+  config commit -m $1
+  config push
+}
+
+
 
 # keybindings
 zle -N cd_with_fzf
