@@ -74,7 +74,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][65][Configuration]
-PreloadWeight=89
+PreloadWeight=100
 
 [Containments][2][Applets][65][Configuration][General]
 favoritesPortedToKAstats=true

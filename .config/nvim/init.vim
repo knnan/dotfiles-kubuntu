@@ -22,6 +22,9 @@ Plug 'tpope/vim-surround'
 " plugin for commengin
 Plug 'tpope/vim-commentary'
 
+" Workspace plugin for autosave and persistent undo ans session management
+Plug 'thaerkh/vim-workspace'
+
 " colorscheme plugins
 Plug 'sainnhe/forest-night'
 Plug 'ayu-theme/ayu-vim' 
@@ -186,6 +189,15 @@ let g:fzf_action = {
   \ 'ctrl-s': 'split',
   \ 'ctrl-v': 'vsplit'
   \}
+
+
+" vim-workspace configs
+
+let g:workspace_session_directory = $HOME . '/.vim/sessions/'
+let g:workspace_autosave_always = 1
+
+
+
 
 " Editor keybindingss
 
