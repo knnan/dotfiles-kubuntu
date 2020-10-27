@@ -32,7 +32,7 @@ alignment=1
 panelVisibility=0
 
 [PlasmaViews][Panel 2][Defaults]
-thickness=32
+thickness=34
 
 [PlasmaViews][Panel 2][Horizontal1600]
 thickness=36
@@ -44,10 +44,10 @@ thickness=34
 thickness=32
 
 [ScreenConnectors]
-0=eDP-1
-1=HDMI-1
+0=HDMI-1
+1=:0.0
 2=DP-2
-3=:0.0
+3=eDP-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js

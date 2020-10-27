@@ -81,11 +81,11 @@ set number relativenumber                       " sets Hybrid line number
 set smartcase                                   " performs casesensitive search when the search term contains a capital charater otherwise case insensitive search
 set noswapfile                                  " Disable swap files.
 
-cmap w!! w !sudo tee        
+cmap w!! w !sudo tee
 
-let g:node_host_prog = expand("~/.nvm/versions/node/v12.18.1/bin/node") " <- example
+" let g:node_host_prog = expand("~/.nvm/versions/node/v12.18.1/bin/node") " <- example
 let g:mapleader="\<Space>"
-
+let g:loaded_matchparen=1
 
 
 " LOOK and FEEL CONFIGURATION
@@ -124,9 +124,6 @@ let g:forest_night_disable_italic_comment = 1
 " config for material theme
 " Themese available for material :  'default' | 'palenight' | 'ocean' | 'lighter' | 'darker' | 'default-community' | 'palenight-community' | 'ocean-community' | 'lighter-community' | 'darker-community'
 let g:material_theme_style = 'ocean'
-
-
-
 
 "colorscheme base16-material-palenight
 "colorscheme forest-night
@@ -231,7 +228,7 @@ nnoremap <C-S-d> yypi
 inoremap <C-S-d> <Esc>yypi
 
 " Alternate way to save and quit
-" nnoremap <C-Q> :wq<CR>
+nnoremap <C-Q> :wq<CR>
 " Use control-c instead of escape
 " nnoremap <C-c> <Esc>
 " Alternate way to save
@@ -245,7 +242,7 @@ inoremap <C-p> <Esc>:Files<CR>
 nnoremap <C-o> :Buffers<CR> 
 inoremap <C-o> <Esc>:Buffers<CR> 
 " nnoremap <C-S-f> :Rg<CR> 
-" inoremap <C-S-f> <Esc>:Rg<CR> 
+" inoremap <C-S-f> <Esc>:Rg<CR>
 nnoremap <C-S-f> :BLines<CR> 
 inoremap <C-S-f> <Esc>:BLines<CR> 
 inoremap jj <Esc>

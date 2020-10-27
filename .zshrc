@@ -90,10 +90,13 @@ SAVEHIST=999999
 #plugins=(git zsh-autosuggestions virtualenv virtualenvwrapper docker docker-compose fzf)
 
 # Minimum plugins
-plugins=( zsh-autosuggestions fzf fzf-tab)
+plugins=( zsh-autosuggestions fzf fzf-tab )
 
 
 # FZF configuration
+
+
+alias -g z='| fzf' # change Z to whatever you like
 
 alias fd="fdfind"
 
