@@ -50,7 +50,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock.wl
 
 [Containments][2][Applets][31][Configuration]
-PreloadWeight=10
+PreloadWeight=14
 
 [Containments][2][Applets][31][Configuration][Appearance]
 bold=false
@@ -66,7 +66,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 SystrayContainmentId=7
 
 [Containments][2][Applets][65]
@@ -116,7 +116,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][59][Wallpaper][org.kde.image][General]
-Image=file:///home/knnan/Downloads/Photos/FWG_2560x1440.jpg
+Image=file:///home/knnan/Downloads/Photos/samurai_extraGreen.jpg
 
 [Containments][60]
 activityId=6dd72cac-7d49-45c0-9c12-635f55a97755
@@ -131,17 +131,17 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][60][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+Image=/home/knnan/Downloads/Photos/samurai_extraGreen.jpg
 
 [Containments][62]
-ItemGeometriesHorizontal=Applet-61:544,80,400,160,0;
+ItemGeometriesHorizontal=Applet-61:64,64,400,160,0;
 activityId=6dd72cac-7d49-45c0-9c12-635f55a97755
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.slideshow
 
 [Containments][62][Applets][61]
 immutability=1
@@ -159,14 +159,23 @@ textColor=#555555
 textFont=Arial,10,-1,5,50,0,0,0,0,0
 
 [Containments][62][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=1054
+DialogWidth=1886
 
 [Containments][62][Configuration]
 PreloadWeight=0
 
+[Containments][62][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=730
+
 [Containments][62][Wallpaper][org.kde.image][General]
-Image=file:///home/knnan/Downloads/Photos/FWG_2560x1440.jpg
+Image=file:///home/knnan/.local/share/wallpapers/Saved Pictures/devianart/just_low_poly__by_pyxartz-da72vz4.jpg
+
+[Containments][62][Wallpaper][org.kde.slideshow][General]
+Image=file:///home/knnan/wallpapers/WavesAerial 4.5 .jpg
+SlidePaths=/home/knnan/wallpapers
+SlideshowMode=1
 
 [Containments][63]
 activityId=7b864eea-2e02-483c-8ccd-7cfd9a839af4
@@ -181,7 +190,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][63][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+Image=/home/knnan/Downloads/Photos/samurai_extraGreen.jpg
 
 [Containments][7]
 activityId=
@@ -256,7 +265,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=5
+PreloadWeight=9
 
 [Containments][7][Applets][19][Configuration][ConfigDialog]
 DialogHeight=540
@@ -270,14 +279,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][20][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][7][Applets][21]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][21][Configuration]
-PreloadWeight=21
+PreloadWeight=50
 
 [Containments][7][Applets][24][Configuration]
 PreloadWeight=42
@@ -287,7 +296,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][36][Configuration]
-PreloadWeight=28
+PreloadWeight=52
 
 [Containments][7][Applets][36][Configuration][ConfigDialog]
 DialogHeight=540
@@ -339,5 +348,5 @@ textColor=#555555
 textFont=Arial,10,-1,5,50,0,0,0,0,0
 
 [ScreenMapping]
-itemsOnDisabledScreens=3,5,desktop:/chrome-pcpcloacpnjpnleijinehhogolpidolp-Default.desktop,desktop:/chrome-fldfghidoapfhofdjogkhcoildjkoiof-Default.desktop,desktop:/Resume_template_to_edit.doc,desktop:/problems,desktop:/wps-office-prometheus.desktop
+itemsOnDisabledScreens=3,5,desktop:/problems,desktop:/Resume_template_to_edit.doc,desktop:/chrome-fldfghidoapfhofdjogkhcoildjkoiof-Default.desktop,desktop:/wps-office-prometheus.desktop,desktop:/chrome-pcpcloacpnjpnleijinehhogolpidolp-Default.desktop
 screenMapping=

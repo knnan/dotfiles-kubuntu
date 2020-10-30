@@ -16,6 +16,12 @@ export PATH
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir virtualenv vcs newline)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time date )
+POWERLEVEL9K_STATUS_OK_BACKGROUND="#bef272"
+POWERLEVEL9K_STATUS_OK_FOREGROUND="black"
+POWERLEVEL9K_TIME_BACKGROUND="grey62"
+POWERLEVEL9K_DATE_BACKGROUND="white"
+POWERLEVEL9K_DATE_FOREGROUND="black"
 
 
 # Set list of themes to pick from when loading at random
@@ -203,10 +209,8 @@ acs() {
 }
 
 cl() {
-    cd $1
-    ls -1
+    tree -L 1
 }
-
 
 
 
@@ -232,6 +236,10 @@ run()
     elif [ "$extension" = 'py' ];
     then
         python3 "$curfile"
+
+    elif [ "$extension" = 'js' ];
+    then
+        node "$curfile"
     fi
 }
 
@@ -248,10 +256,19 @@ dotfiles_add()
   config push
 }
 
-
+help()
+{
+  if [ $# -eq 0 ]
+  then
+    curl cheat.sh
+  else
+    curl cheat.sh/$1
+  fi
+}
 
 # keybindings
 zle -N cd_with_fzf
-bindkey '^F' cd_with_fzf  
+bindkey '^F' cd_with_fzf
 
 
+POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true

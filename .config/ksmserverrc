@@ -2,35 +2,31 @@
 update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
 
 [LegacySession: saved at previous logout]
-count=0
+clientMachine1=localhost
+command1=sublime_text
+count=1
 
 [Session: saved at previous logout]
-clientId1=101d71a218a1e0000160196561100000016300013
-clientId2=101d71a218a1e0000160325236400000019160004
-clientId3=101d71a218a1e0000160333946700000016070008
-clientId4=101d71a218a1e0000160325757900000019160018
-count=4
-discardCommand1[$e]=rm,$HOME/.config/session/kwin_101d71a218a1e0000160196561100000016300013_1603381075_686525
-program1=/usr/bin/kwin_x11
-program2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
+clientId1=101d71a218a1e0000160394411500000058950005
+clientId2=101d71a218a1e0000160196561100000016300013
+clientId3=101d71a218a1e0000160394411500000058950008
+count=3
+discardCommand2[$e]=rm,$HOME/.config/session/kwin_101d71a218a1e0000160196561100000016300013_1604065561_10539
+program1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
+program2=/usr/bin/kwin_x11
 program3=pulseaudio
-program4=/usr/bin/elisa
-restartCommand1=/usr/bin/kwin_x11,-session,101d71a218a1e0000160196561100000016300013_1603381075_686525
-restartCommand2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000160325236400000019160004_1603381073_697340
+restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000160394411500000058950005_1604065560_17250
+restartCommand2=/usr/bin/kwin_x11,-session,101d71a218a1e0000160196561100000016300013_1604065561_10539
 restartCommand3=
-restartCommand4=/usr/bin/elisa,-session,101d71a218a1e0000160325757900000019160018_1603381073_697937
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
-restartStyleHint4=0
 userId1=knnan
 userId2=knnan
 userId3=knnan
-userId4=knnan
-wasWm1=true
-wasWm2=false
+wasWm1=false
+wasWm2=true
 wasWm3=false
-wasWm4=false
 
 [SubSession: b74be856-2c8f-4cfd-a3e3-b422a76c599d]
 count=0
