@@ -236,10 +236,12 @@ run()
     elif [ "$extension" = 'py' ];
     then
         python3 "$curfile"
-
     elif [ "$extension" = 'js' ];
     then
         node "$curfile"
+    elif [ "$extension" = 'go' ];
+    then
+        go run "$curfile"
     fi
 }
 

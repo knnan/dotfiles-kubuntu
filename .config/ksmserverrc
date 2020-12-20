@@ -3,30 +3,50 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 
 [LegacySession: saved at previous logout]
 clientMachine1=localhost
-command1=sublime_text
+command1=sublime_merge
 count=1
 
 [Session: saved at previous logout]
-clientId1=101d71a218a1e0000160394411500000058950005
-clientId2=101d71a218a1e0000160196561100000016300013
-clientId3=101d71a218a1e0000160394411500000058950008
-count=3
-discardCommand2[$e]=rm,$HOME/.config/session/kwin_101d71a218a1e0000160196561100000016300013_1604065561_10539
-program1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
-program2=/usr/bin/kwin_x11
+clientId1=101d71a218a1e0000160196561100000016300013
+clientId2=101d71a218a1e0000160837788300000016800007
+clientId3=101d71a218a1e0000160837788300000016800008
+clientId4=101d71a218a1e0000160743481800000015870011
+clientId5=101d71a218a1e0000160837794300000016800011
+clientId6=101d71a218a1e0000160838846100000016800019
+count=6
+discardCommand1[$e]=rm,$HOME/.config/session/kwin_101d71a218a1e0000160196561100000016300013_1608437378_863521
+discardCommand4[$e]=rm,$HOME/.config/session/konsole_101d71a218a1e0000160743481800000015870011_1608437363_140777
+discardCommand6[$e]=rm,$HOME/.config/session/gwenview_101d71a218a1e0000160838846100000016800019_1608437363_138146
+program1=/usr/bin/kwin_x11
+program2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
 program3=pulseaudio
-restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000160394411500000058950005_1604065560_17250
-restartCommand2=/usr/bin/kwin_x11,-session,101d71a218a1e0000160196561100000016300013_1604065561_10539
+program4=/usr/bin/konsole
+program5=/usr/lib/x86_64-linux-gnu/libexec/kf5/kioexec
+program6=/usr/bin/gwenview
+restartCommand1=/usr/bin/kwin_x11,-session,101d71a218a1e0000160196561100000016300013_1608437378_863521
+restartCommand2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000160837788300000016800007_1608437363_146900
 restartCommand3=
+restartCommand4=/usr/bin/konsole,-session,101d71a218a1e0000160743481800000015870011_1608437363_140777
+restartCommand5=/usr/lib/x86_64-linux-gnu/libexec/kf5/kioexec,-session,101d71a218a1e0000160837794300000016800011_1608377943_285897
+restartCommand6=/usr/bin/gwenview,-session,101d71a218a1e0000160838846100000016800019_1608437363_138146
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
+restartStyleHint4=0
+restartStyleHint5=0
+restartStyleHint6=0
 userId1=knnan
 userId2=knnan
 userId3=knnan
-wasWm1=false
-wasWm2=true
+userId4=knnan
+userId5=knnan
+userId6=knnan
+wasWm1=true
+wasWm2=false
 wasWm3=false
+wasWm4=false
+wasWm5=false
+wasWm6=false
 
 [SubSession: b74be856-2c8f-4cfd-a3e3-b422a76c599d]
 count=0
