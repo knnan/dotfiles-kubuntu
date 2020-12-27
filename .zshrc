@@ -1,6 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export EDITOR="nvim"
+
 # Path to your oh-my-zsh installation.
 export TERM="xterm-256color"
 export ZSH="/home/knnan/.oh-my-zsh"
@@ -76,12 +78,12 @@ COMPLETION_WAITING_DOTS="true"
 
 setopt EXTENDED_HISTORY
 setopt HIST_EXPIRE_DUPS_FIRST
-setopt HIST_IGNORE_DUPS
-setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_IGNORE_SPACE
 setopt HIST_FIND_NO_DUPS
 setopt HIST_SAVE_NO_DUPS
 setopt HIST_BEEP
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_ALL_DUPS
 SAVEHIST=999999
 
 # Would you like to use another custom folder than $ZSH/custom?
@@ -193,9 +195,11 @@ alias reload="source ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+
+alias lst="tree -L 1"
 alias python=python3
 alias xclip="xclip -selection c"
-alias -g G=" | grep"
+alias -g G=" | rg"
 alias vpn_connect="sudo openvpn --config /home/knnan/.local/share/networkmanagement/certificates/client.ovpn  --auth-user-pass /home/knnan/.local/share/networkmanagement/certificates/pass.txt"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 if type nvim > /dev/null 2>&1; then
@@ -265,6 +269,28 @@ help()
     curl cheat.sh
   else
     curl cheat.sh/$1
+  fi
+}
+
+# ssh portforwading aliases
+
+pfwd()
+{
+  if [ $1 = "dev-redis" ]
+  then
+    ssh -L 6676:localhost:6379 gopoolit.in
+  elif [ $1 = "prod-redis" ]
+  then
+    ssh -L 5567:localhost:7735 gopoolit_prod_redis
+  elif [ $1 = "dev-db" ]
+  then
+    ssh -L 8000:localhost:5432 gopoolit.in
+  elif [ $1 = "dev-db-dash" ]
+  then
+    ssh -L 5555:localhost:5432 gopoolit_dashboard
+  elif [ $1 = "prod-db" ]
+  then
+    ssh -L 4444:gpi-prod-database.cbwufhpbn913.eu-west-1.rds.amazonaws.com:5435 gopoolit_ec2
   fi
 }
 

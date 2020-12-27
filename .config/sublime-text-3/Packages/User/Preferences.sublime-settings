@@ -3,7 +3,7 @@
 	"bold_folder_labels": true,
 	"buildview.enabled": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-material-darker.tmTheme",
+	"color_scheme": "Packages/User/materia-ocenic-test.sublime-color-scheme",
 	"draw_centered": false,
 	"draw_white_space": "none",
 	"enable_tab_scrolling": true,
@@ -31,8 +31,15 @@
 		"*.psd",
 		"*.sublime-workspace"
 	],
+	"folder_exclude_patterns":
+	[
+		"node_modules",
+		".git",
+		".serverless",
+		".vscode"
+	],
 	"font_face": "Iosevka",
-	"font_size": 11,
+	"font_size": 10,
 	"gutter": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -61,7 +68,7 @@
 	"show_git_status": true,
 	"skin": "ayu/ayu dark",
 	"tab_size": 4,
-	"theme": "Material-Theme-Darker.sublime-theme",
+	"theme": "materia-ocenic-test.sublime-theme",
 	"theme_accent_purple": true,
 	"theme_dirty_accent_purple": true,
 	"theme_scrollbar_rounded": true,
