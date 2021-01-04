@@ -278,13 +278,13 @@ pfwd()
 {
   if [ $1 = "dev-redis" ]
   then
-    ssh -L 6676:localhost:6379 gopoolit.in
+    ssh -L 6676:localhost:6379 gopoolit.me
   elif [ $1 = "prod-redis" ]
   then
     ssh -L 5567:localhost:7735 gopoolit_prod_redis
   elif [ $1 = "dev-db" ]
   then
-    ssh -L 8000:localhost:5432 gopoolit.in
+    ssh -L 8000:localhost:5432 gopoolit.me
   elif [ $1 = "dev-db-dash" ]
   then
     ssh -L 5555:localhost:5432 gopoolit_dashboard
@@ -296,7 +296,7 @@ pfwd()
 
 # keybindings
 zle -N cd_with_fzf
-bindkey '^F' cd_with_fzf
+# bindkey '^F' cd_with_fzf
 
 
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true

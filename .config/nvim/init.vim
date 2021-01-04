@@ -1,6 +1,4 @@
 call plug#begin()
-
-" formatting and cursor plugins
 Plug 'jiangmiao/auto-pairs'
 Plug 'sbdchd/neoformat'
 " fuzzy finder plugin
@@ -37,6 +35,9 @@ Plug 'morhetz/gruvbox'
 " airline themes plugins
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+Plug 'chrisbra/sudoedit.vim'
+Plug 'kdheepak/keystrokes.nvim'
 
 call plug#end()
 
@@ -222,10 +223,10 @@ vnoremap <C-L> <down>
 
 
 " delete or duplicate the line
-nnoremap <C-S-k> ddi
-inoremap <C-S-k> <Esc>ddi
-nnoremap <C-S-d> yypi
-inoremap <C-S-d> <Esc>yypi
+nnoremap <C-K> ddi
+inoremap <C-K> <Esc>ddi
+nnoremap <C-d> yypi
+inoremap <C-d> <Esc>yypi
 
 " Alternate way to save and quit
 nnoremap <C-Q> :wq<CR>
@@ -237,14 +238,14 @@ nnoremap <C-Q> :wq<CR>
 
 nnoremap <C-W> :bdelete<CR>
 
-nnoremap <C-p> :Files<CR>  
-inoremap <C-p> <Esc>:Files<CR> 
-nnoremap <C-o> :Buffers<CR> 
-inoremap <C-o> <Esc>:Buffers<CR> 
-" nnoremap <C-S-f> :Rg<CR> 
+nnoremap <C-p> :Files<CR>
+inoremap <C-p> <Esc>:Files<CR>
+nnoremap <C-o> :Buffers<CR>
+inoremap <C-o> <Esc>:Buffers<CR>
+inoremap <C-f> <Esc>:BLines<CR>
+nnoremap <C-f> :BLines<CR>
+" nnoremap <C-S-f> :Rg<CR>
 " inoremap <C-S-f> <Esc>:Rg<CR>
-nnoremap <C-S-f> :BLines<CR> 
-inoremap <C-S-f> <Esc>:BLines<CR> 
 inoremap jj <Esc>
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
@@ -254,13 +255,12 @@ nnoremap <S-TAB> :bprevious<CR>
 nnoremap ; :
 nnoremap <C-Z> u
 inoremap <C-Z> <Esc>ui
-nnoremap <C-Y> <C-R>
-inoremap <C-Y> <Esc><C-R>i
+" nnoremap <C-Y> <C-R>
+" inoremap < C-Y> <Esc><C-R>i
 
 " mapping leader+ forward slash for commenting
 nnoremap <space>/ :Commentary<CR>
 vnoremap <space>/ :Commentary<CR>
-
 
 
 " coc configs

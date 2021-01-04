@@ -66,6 +66,8 @@
 
     { "keys": ["ctrl+alt+f"], "command": "js_prettier" },
 
+  { "keys": ["ctrl+shift+9"], "command": "create_pane", "args": {"direction": "right"} },
+  { "keys": ["ctrl+shift+0"], "command": "create_pane", "args": {"direction": "down"} },
 
 
 
