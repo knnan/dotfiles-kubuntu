@@ -233,7 +233,7 @@ nnoremap <C-Q> :wq<CR>
 " Use control-c instead of escape
 " nnoremap <C-c> <Esc>
 " Alternate way to save
-" nnoremap <C-s> :w<CR>
+nnoremap <C-s> :w<CR>
 " inoremap <C-s> <Esc>:w<CR>i
 
 nnoremap <C-W> :bdelete<CR>
@@ -244,8 +244,8 @@ nnoremap <C-o> :Buffers<CR>
 inoremap <C-o> <Esc>:Buffers<CR>
 inoremap <C-f> <Esc>:BLines<CR>
 nnoremap <C-f> :BLines<CR>
-" nnoremap <C-S-f> :Rg<CR>
-" inoremap <C-S-f> <Esc>:Rg<CR>
+nnoremap <C-R> :Rg<CR>
+inoremap <C-R> <Esc>:Rg<CR>
 inoremap jj <Esc>
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
@@ -255,11 +255,12 @@ nnoremap <S-TAB> :bprevious<CR>
 nnoremap ; :
 nnoremap <C-Z> u
 inoremap <C-Z> <Esc>ui
-" nnoremap <C-Y> <C-R>
-" inoremap < C-Y> <Esc><C-R>i
+nnoremap <C-Y> <C-R>
+inoremap <C-Y> <Esc><C-R>i
 
 " mapping leader+ forward slash for commenting
 nnoremap <space>/ :Commentary<CR>
+inoremap <space>/ <Esc>:Commentary<CR>i
 vnoremap <space>/ :Commentary<CR>
 
 

@@ -66,7 +66,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=84
+PreloadWeight=89
 SystrayContainmentId=7
 
 [Containments][2][Applets][65]
@@ -74,7 +74,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][65][Configuration]
-PreloadWeight=94
+PreloadWeight=100
 
 [Containments][2][Applets][65][Configuration][General]
 favoritesPortedToKAstats=true
@@ -189,7 +189,7 @@ ToolBoxButtonX=730
 Image=file:///home/knnan/.local/share/wallpapers/Saved Pictures/devianart/just_low_poly__by_pyxartz-da72vz4.jpg
 
 [Containments][62][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/knnan/wallpapers/mh.jpg
+Image=file:///home/knnan/wallpapers/star-wars-minimalism-art-5k-zv-1366x768.jpg
 SlidePaths=/home/knnan/wallpapers
 SlideshowMode=1
 
@@ -312,7 +312,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][36][Configuration]
-PreloadWeight=84
+PreloadWeight=89
 
 [Containments][7][Applets][36][Configuration][ConfigDialog]
 DialogHeight=540
