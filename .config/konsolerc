@@ -8,7 +8,7 @@ Width 1600=700
 Width 1920=700
 
 [Favorite Profiles]
-Favorites=soothing.profile,Main profile.profile,green soothing.profile,Testing.profile,Palenlight.profile
+Favorites=Main profile.profile,Testing.profile,Palenlight.profile,green soothing.profile,soothing.profile
 
 [KFileDialog Settings]
 detailViewIconSize=0

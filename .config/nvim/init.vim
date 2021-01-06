@@ -43,7 +43,7 @@ call plug#end()
 
 " GENERAL SETTINGS
 " set leader key
-let g:mapleader = "\<Space>"
+" let g:mapleader = "|"
 
 syntax enable                                   " Enables syntax highlighing
 set hidden                                      " Required to keep multiple buffers open multiple buffers
@@ -85,7 +85,6 @@ set noswapfile                                  " Disable swap files.
 cmap w!! w !sudo tee
 
 " let g:node_host_prog = expand("~/.nvm/versions/node/v12.18.1/bin/node") " <- example
-let g:mapleader="\<Space>"
 let g:loaded_matchparen=1
 
 
@@ -258,10 +257,22 @@ inoremap <C-Z> <Esc>ui
 nnoremap <C-Y> <C-R>
 inoremap <C-Y> <Esc><C-R>i
 
+vnoremap <C-c> y
+
+
 " mapping leader+ forward slash for commenting
-nnoremap <space>/ :Commentary<CR>
-inoremap <space>/ <Esc>:Commentary<CR>i
-vnoremap <space>/ :Commentary<CR>
+nnoremap <C-_> :Commentary<CR>
+inoremap <C-_> <Esc>:Commentary<CR>i
+vnoremap <C-_> :Commentary<CR>
+
+
+" coc configs
+source $HOME/.config/nvim/module_configs/coc.vim
+
+" mapping leader+ forward slash for commenting
+nnoremap <C-_> :Commentary<CR>
+inoremap <C-_> <Esc>:Commentary<CR>i
+vnoremap <C-_> :Commentary<CR>
 
 
 " coc configs
