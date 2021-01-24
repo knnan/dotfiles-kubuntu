@@ -1,13 +1,21 @@
 #!/bin/bash
 
 
+
+
+
+
+sudo apt update -y;
+sudo apt upgrade -y;
+
 sudo apt instlal git
 sudo apt install curl
 sudo apt install wget
+sudo apt instal net-tools
 sudo apt-get install build-essential
 sudo apt install python3
-sudo apt install fzf
 sudo apt install python3-pip
+sudo apt install fzf
 sudo apt install zsh
 sudo apt install powerline fonts-powerline
 #oh-my-zsh
@@ -36,6 +44,17 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 #install fsearch
 sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-daily\
 sudo apt install fsearch
+
+
+
+
+
+
+
+
+
+
+
 
 
 

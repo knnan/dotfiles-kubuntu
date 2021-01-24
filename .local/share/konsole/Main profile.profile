@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=dracular dark changed
-Font=Iosevka Nerd Font Mono,10,-1,5,50,0,0,0,0,0
+Font=Iosevka Nerd Font Mono,9,-1,5,50,0,0,0,0,0
 
 [Cursor Options]
 CursorShape=1
