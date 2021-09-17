@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -16,14 +23,15 @@ export PATH
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+#ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir virtualenv vcs newline)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time date )
-POWERLEVEL9K_STATUS_OK_BACKGROUND="#bef272"
-POWERLEVEL9K_STATUS_OK_FOREGROUND="black"
-POWERLEVEL9K_TIME_BACKGROUND="grey62"
-POWERLEVEL9K_DATE_BACKGROUND="white"
-POWERLEVEL9K_DATE_FOREGROUND="black"
+#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir virtualenv vcs newline)
+#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time date )
+#POWERLEVEL9K_STATUS_OK_BACKGROUND="#bef272"
+#POWERLEVEL9K_STATUS_OK_FOREGROUND="black"
+#POWERLEVEL9K_TIME_BACKGROUND="grey62"
+#POWERLEVEL9K_DATE_BACKGROUND="white"
+#POWERLEVEL9K_DATE_FOREGROUND="black"
 
 
 # Set list of themes to pick from when loading at random
@@ -208,6 +216,12 @@ if type nvim > /dev/null 2>&1; then
 fi
 
 
+
+alias eve="code --list-extensions |
+xargs -L 1 echo code --install-extension |
+sed 's/$/ --force/' |
+sed '\$!s/$/ \&\&/' > install-extensions.sh"
+
 acs() {
     apt-cache search $1
 }
@@ -278,13 +292,13 @@ pfwd()
 {
   if [ $1 = "dev-redis" ]
   then
-    ssh -L 6676:localhost:6379 gopoolit_new.me
+    ssh -L 6676:localhost:6379 gopoolit.me
   elif [ $1 = "prod-redis" ]
   then
     ssh -L 5567:localhost:7735 gopoolit_prod_redis
   elif [ $1 = "dev-db" ]
   then
-    ssh -L 8000:localhost:5432 gopoolit_new.me
+    ssh -L 8000:localhost:5432 gopoolit.me
   elif [ $1 = "dev-db-dash" ]
   then
     ssh -L 5555:localhost:5432 gopoolit_dashboard
@@ -300,3 +314,6 @@ zle -N cd_with_fzf
 
 
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
