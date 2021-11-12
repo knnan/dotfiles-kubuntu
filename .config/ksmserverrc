@@ -2,38 +2,37 @@
 update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
 
 [LegacySession: saved at previous logout]
-clientMachine1=localhost
-command1=sublime_text
-count=1
+count=0
 
 [Session: saved at previous logout]
-clientId1=101d71a218a1e0000160196561100000016300013
-clientId2=101d71a218a1e0000161142410300000015560004
-clientId3=101d71a218a1e0000161146401400000014370008
-clientId4=101d71a218a1e0000160881973200000016760022
-count=4
-discardCommand1[$e]=rm,$HOME/.config/session/kwin_101d71a218a1e0000160196561100000016300013_1611466727_204864
-discardCommand4[$e]=rm,$HOME/.config/session/konsole_101d71a218a1e0000160881973200000016760022_1611466726_213733
-program1=/usr/bin/kwin_x11
-program2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
-program3=pulseaudio
+clientId1=101d71a218a1e0000163672773500000015160005
+clientId2=101d71a218a1e0000163672773600000015160008
+clientId3=101d71a218a1e0000163395716800000017610012
+clientId4=101d71a218a1e0000163596444200000015440012
+clientId5=101d71a218a1e0000163670667400000015050011
+count=5
+discardCommand4[$e]=rm,$HOME/.config/session/konsole_101d71a218a1e0000163596444200000015440012_1636731828_54444
+discardCommand5[$e]=rm,$HOME/.config/session/dolphin_101d71a218a1e0000163670667400000015050011_1636731828_54867
+program1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
+program2=pulseaudio
+program3=/opt/kingsoft/wps-office/office6/wpspdf
 program4=/usr/bin/konsole
-restartCommand1=/usr/bin/kwin_x11,-session,101d71a218a1e0000160196561100000016300013_1611466727_204864
-restartCommand2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000161142410300000015560004_1611466726_213587
-restartCommand3=
-restartCommand4=/usr/bin/konsole,-session,101d71a218a1e0000160881973200000016760022_1611466726_213733
+program5=/usr/bin/dolphin
+restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000163672773500000015160005_1636731828_53653
+restartCommand2=
+restartCommand3=/opt/kingsoft/wps-office/office6/wpspdf,-session,101d71a218a1e0000163395716800000017610012_1636731828_54457
+restartCommand4=/usr/bin/konsole,-session,101d71a218a1e0000163596444200000015440012_1636731828_54444
+restartCommand5=/usr/bin/dolphin,-session,101d71a218a1e0000163670667400000015050011_1636731828_54867
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
 restartStyleHint4=0
+restartStyleHint5=0
 userId1=knnan
 userId2=knnan
 userId3=knnan
 userId4=knnan
-wasWm1=true
-wasWm2=false
-wasWm3=false
-wasWm4=false
+userId5=knnan
 
 [SubSession: b74be856-2c8f-4cfd-a3e3-b422a76c599d]
 count=0

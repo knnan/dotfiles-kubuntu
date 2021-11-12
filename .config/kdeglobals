@@ -1,5 +1,5 @@
 [$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
 
 [ColorEffects:Disabled]
 ChangeSelectionColor=
@@ -108,8 +108,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=866,596
-History Items[$e]=file:///media/knnan/E/tvseries,file:$HOME/wallpapers,file:$HOME/wallpapers,file:///media/knnan/F/Animes,file:///media/knnan/F/Animes/Modern Family,file:///media/knnan/F/Animes/seven deadly sings,file:///media,file:///media/knnan/F/Animes/Everybody hates chris,file:///media/knnan/F/Kiran/Music,file:///media/knnan/F/Kiran/Music/Processing Tracks,file:$HOME/Downloads/music_downloads,file:///media/knnan/E/Software,file:///media/knnan/E/Software/VIRTUAL MACHINES,file:///media/knnan/F/Animes/Harry Potter,file:$HOME/Downloads/Chromium.Web.Store,file:$HOME/Downloads/chromium-web-store-1.0.0,file:///media/knnan/F/Music,file:///media/knnan/F/Animes/Pokemon (1998) Seasons 1-14 -E.Rev 480p x264 MKV,file:///media/knnan/F/Animes/Beyblade,file:///media/knnan/F/Animes/Justice League All Seasons 1 2 3 4 5 Complete 720p MKV vk007
+DirSelectDialog Size=771,598
+History Items[$e]=file:$HOME/tv shows/justice league,file:$HOME/tv shows/justice league,file:$HOME/tv shows/justice league,file:$HOME/Desktop,file:///media/knnan/E/tvseries,file:$HOME/wallpapers,file:$HOME/wallpapers,file:///media/knnan/F/Animes,file:///media/knnan/F/Animes/Modern Family,file:///media/knnan/F/Animes/seven deadly sings,file:///media,file:///media/knnan/F/Animes/Everybody hates chris,file:///media/knnan/F/Kiran/Music,file:///media/knnan/F/Kiran/Music/Processing Tracks,file:$HOME/Downloads/music_downloads,file:///media/knnan/E/Software,file:///media/knnan/E/Software/VIRTUAL MACHINES,file:///media/knnan/F/Animes/Harry Potter,file:$HOME/Downloads/Chromium.Web.Store,file:$HOME/Downloads/chromium-web-store-1.0.0,file:///media/knnan/F/Music,file:///media/knnan/F/Animes/Pokemon (1998) Seasons 1-14 -E.Rev 480p x264 MKV,file:///media/knnan/F/Animes/Beyblade,file:///media/knnan/F/Animes/Justice League All Seasons 1 2 3 4 5 Complete 720p MKV vk007
 
 [General]
 BrowserApplication=google-chrome.desktop
