@@ -11,7 +11,7 @@ Plug 'haya14busa/incsearch.vim'
 " autocompletion plugin
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" language packs plugin
+" language packs plugink
 Plug 'sheerun/vim-polyglot'
 
 " quoting/and paranthesis plugin

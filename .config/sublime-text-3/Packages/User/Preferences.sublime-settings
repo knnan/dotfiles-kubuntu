@@ -39,11 +39,11 @@
 		".vscode"
 	],
 	"font_face": "Iosevka",
-	"font_size": 9,
+	"font_size": 10,
 	"gutter": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"hot_exit": false,
+	"hot_exit": "always",
 	"ignored_packages":
 	[
 		"Rust",

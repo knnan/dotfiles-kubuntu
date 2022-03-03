@@ -115,7 +115,7 @@ plugins=( zsh-autosuggestions fzf fzf-tab )
 
 
 alias -g z='| fzf' # change Z to whatever you like
-
+alias curltime="curl -w \"@$HOME/.curl-format.txt\" -o /dev/null -s "
 alias fd="fdfind"
 
 # Setting rg as the default source for fzf
@@ -200,6 +200,7 @@ load-nvmrc
 #
 # Example aliases
 alias zshconfig="vi ~/.zshrc"
+alias sshconfig="vi ~/.ssh/config"
 alias viconfig="vi ~/.config/nvim/init.vim"
 alias reload="source ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -210,7 +211,9 @@ alias lst="tree -L 1"
 alias python=python3
 alias xclip="xclip -selection c"
 alias -g G=" | rg"
-alias vpn_connect="sudo openvpn --config /home/knnan/.local/share/networkmanagement/certificates/client.ovpn  --auth-user-pass /home/knnan/.local/share/networkmanagement/certificates/pass.txt"
+#alias vpn_connect="sudo openvpn --config /home/knnan/.local/share/networkmanagement/certificates/client.ovpn  --auth-user-pass /home/knnan/.local/share/networkmanagement/certificates/pass.txt"
+alias vpn_connect="sudo openvpn --cd ~/vpn --config client.ovpn  --auth-user-pass auth.txt"
+alias usa_vpn_connect="sudo openvpn --cd ~/vpn/usa_dc_vpn --config usa_dc_ssl_vpn_config.ovpn  --auth-user-pass usa_dc_auth.txt"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 if type nvim > /dev/null 2>&1; then
     alias vim='nvim'

@@ -13,7 +13,7 @@ DefaultProfile=Main profile.profile
 
 [DetailsMode]
 FontWeight=50
-PreviewSize=64
+PreviewSize=22
 
 [Favorite Profiles]
 Favorites=
@@ -37,6 +37,8 @@ Height 1080=506
 Height 900=518
 Width 1600=471
 Width 1920=481
+eDP-1 Height 1600x900=446
+eDP-1 Width 1600x900=401
 
 [MainWindow]
 HDMI-1 Height 1920x1080=1054
@@ -44,19 +46,36 @@ HDMI-1 Width 1920x1080=1886
 HDMI-1 Window-Maximized 1920x1080=true
 HDMI-1 XPosition 1920x1080=0
 HDMI-1 YPosition 1920x1080=26
+HDMI-1 eDP-1 Height 1920x1080=1054
+HDMI-1 eDP-1 Width 1920x1080=1886
+HDMI-1 eDP-1 Window-Maximized 1920x1080=true
+HDMI-1 eDP-1 XPosition 1920x1080=0
+HDMI-1 eDP-1 YPosition 1920x1080=26
 Height 1080=1054
 Height 900=874
-RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAwAAAAAAAADVAAADHvwCAAAAAvsAAAAUAHAAbABhAGMAZQBzAEQAbwBjAGsBAAAATAAAAx4AAABdAQAAA/sAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAADAAAAAQAAALgAAANE/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAHXgAAAXj8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHXgAAAAoBAAADAAAFSgAAAx4AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAFQAAADcvwCAAAAAvsAAAAUAHAAbABhAGMAZQBzAEQAbwBjAGsBAAAATAAAA3IAAABdAQAAA/sAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAADAAAAAQAAALgAAANE/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAHXgAAAF/8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAAHXgAAAJEBAAADAAAGDQAAA3IAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1600=1568
 Width 1920=1886
 Window-Maximized 1080x1920=true
 Window-Maximized 900x1600=true
+eDP-1 HDMI-1 Height 1600x900=874
+eDP-1 HDMI-1 Height 1920x1080=1054
+eDP-1 HDMI-1 Width 1600x900=1568
+eDP-1 HDMI-1 Width 1920x1080=1920
+eDP-1 HDMI-1 Window-Maximized 1600x900=true
+eDP-1 HDMI-1 Window-Maximized 1920x1080=true
+eDP-1 HDMI-1 XPosition 1600x900=0
+eDP-1 HDMI-1 XPosition 1920x1080=0
+eDP-1 HDMI-1 YPosition 1600x900=26
+eDP-1 HDMI-1 YPosition 1920x1080=26
 eDP-1 Height 1600x900=874
 eDP-1 Width 1600x900=1568
+eDP-1 Window-Maximized 1440x900=true
 eDP-1 Window-Maximized 1600x900=true
+eDP-1 XPosition 1440x900=0
 eDP-1 XPosition 1600x900=0
+eDP-1 YPosition 1440x900=26
 eDP-1 YPosition 1600x900=26
 
 [Notification Messages]
@@ -64,7 +83,7 @@ ConfirmDelete=true
 
 [Open-with settings]
 CompletionMode=1
-History=mp,sub,dis,mpv,dol,t,subl,subli,ark,vlc,typo,eli
+History=vlc,mp,sub,dis,mpv,dol,t,subl,subli,ark,typo,eli
 
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs

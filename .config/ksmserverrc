@@ -5,34 +5,28 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 count=0
 
 [Session: saved at previous logout]
-clientId1=101d71a218a1e0000163672773500000015160005
-clientId2=101d71a218a1e0000163672773600000015160008
-clientId3=101d71a218a1e0000163395716800000017610012
-clientId4=101d71a218a1e0000163596444200000015440012
-clientId5=101d71a218a1e0000163670667400000015050011
-count=5
-discardCommand4[$e]=rm,$HOME/.config/session/konsole_101d71a218a1e0000163596444200000015440012_1636731828_54444
-discardCommand5[$e]=rm,$HOME/.config/session/dolphin_101d71a218a1e0000163670667400000015050011_1636731828_54867
+clientId1=101d71a218a1e0000164618195400000015050005
+clientId2=101d71a218a1e0000164618195500000015050008
+clientId3=101d71a218a1e0000164516767700000015050013
+clientId4=101d71a218a1e0000164629029400000015050020
+count=4
+discardCommand3[$e]=rm,$HOME/.config/session/ktorrent_101d71a218a1e0000164516767700000015050013_1646290314_931159
 program1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
 program2=pulseaudio
-program3=/opt/kingsoft/wps-office/office6/wpspdf
-program4=/usr/bin/konsole
-program5=/usr/bin/dolphin
-restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000163672773500000015160005_1636731828_53653
+program3=/usr/bin/ktorrent
+program4=/usr/lib/x86_64-linux-gnu/libexec/drkonqi
+restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000164618195400000015050005_1646290314_928381
 restartCommand2=
-restartCommand3=/opt/kingsoft/wps-office/office6/wpspdf,-session,101d71a218a1e0000163395716800000017610012_1636731828_54457
-restartCommand4=/usr/bin/konsole,-session,101d71a218a1e0000163596444200000015440012_1636731828_54444
-restartCommand5=/usr/bin/dolphin,-session,101d71a218a1e0000163670667400000015050011_1636731828_54867
+restartCommand3=/usr/bin/ktorrent,-session,101d71a218a1e0000164516767700000015050013_1646290314_931159
+restartCommand4=/usr/lib/x86_64-linux-gnu/libexec/drkonqi,-session,101d71a218a1e0000164629029400000015050020_1646290314_923369
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
 restartStyleHint4=0
-restartStyleHint5=0
 userId1=knnan
 userId2=knnan
 userId3=knnan
 userId4=knnan
-userId5=knnan
 
 [SubSession: b74be856-2c8f-4cfd-a3e3-b422a76c599d]
 count=0

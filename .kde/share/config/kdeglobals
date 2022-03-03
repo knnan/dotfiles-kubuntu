@@ -2,10 +2,10 @@
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65
+ContrastAmount=0.2
 ContrastEffect=1
 IntensityAmount=0.1
-IntensityEffect=2
+IntensityEffect=0
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=false
@@ -20,8 +20,8 @@ IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=77,77,77
-BackgroundNormal=30,32,41
-DecorationFocus=124,129,138
+BackgroundNormal=33,36,45
+DecorationFocus=35,36,39
 DecorationHover=112,119,132
 ForegroundActive=61,174,233
 ForegroundInactive=189,195,199
@@ -46,23 +46,27 @@ ForegroundNormal=239,240,241
 ForegroundPositive=17,209,22
 ForegroundVisited=61,174,230
 
+[Colors:Header]
+BackgroundAlternate=44,55,70
+BackgroundNormal=44,55,70
+
 [Colors:Selection]
 BackgroundAlternate=29,153,243
 BackgroundNormal=152,195,121
-DecorationFocus=124,129,138
-DecorationHover=112,119,132
+DecorationFocus=35,36,39
+DecorationHover=40,42,47
 ForegroundActive=252,252,252
 ForegroundInactive=239,240,241
 ForegroundLink=253,188,75
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=30,32,41
+ForegroundNormal=28,30,31
 ForegroundPositive=39,174,96
 ForegroundVisited=189,195,199
 
 [Colors:Tooltip]
 BackgroundAlternate=77,77,77
-BackgroundNormal=30,32,41
+BackgroundNormal=49,54,59
 DecorationFocus=124,129,138
 DecorationHover=112,119,132
 ForegroundActive=61,174,233
@@ -75,10 +79,10 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [Colors:View]
-BackgroundAlternate=23,26,31
-BackgroundNormal=30,32,41
-DecorationFocus=124,129,138
-DecorationHover=112,119,132
+BackgroundAlternate=20,22,27
+BackgroundNormal=7,7,9
+DecorationFocus=69,72,77
+DecorationHover=44,47,52
 ForegroundActive=61,174,233
 ForegroundInactive=189,195,199
 ForegroundLink=41,128,185
@@ -90,7 +94,7 @@ ForegroundVisited=127,140,141
 
 [Colors:Window]
 BackgroundAlternate=77,77,77
-BackgroundNormal=30,32,41
+BackgroundNormal=19,22,26
 DecorationFocus=124,129,138
 DecorationHover=112,119,132
 ForegroundActive=61,174,233
@@ -104,10 +108,10 @@ ForegroundVisited=127,140,141
 
 [General]
 ColorScheme=Breeze Dark
-Name=One Dark custom final
+Name=One Dark custom
 font=Iosevka,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-widgetStyle=Breeze
+widgetStyle=breeze
 
 [Icons]
 Theme=OneDark
@@ -122,9 +126,9 @@ ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
-activeBackground=40,44,51
+activeBackground=18,20,24
 activeBlend=255,255,255
 activeForeground=239,240,241
-inactiveBackground=40,44,51
+inactiveBackground=22,25,29
 inactiveBlend=75,71,67
 inactiveForeground=127,140,141
