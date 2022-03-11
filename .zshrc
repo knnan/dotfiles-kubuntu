@@ -25,15 +25,15 @@ export PATH
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel10k/powerlevel10k"
-#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir virtualenv vcs newline)
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time date )
-#POWERLEVEL9K_STATUS_OK_BACKGROUND="#bef272"
-#POWERLEVEL9K_STATUS_OK_FOREGROUND="black"
-#POWERLEVEL9K_TIME_BACKGROUND="grey62"
-#POWERLEVEL9K_DATE_BACKGROUND="white"
-#POWERLEVEL9K_DATE_FOREGROUND="black"
+# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir virtualenv vcs newline)
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time date )
+# POWERLEVEL9K_STATUS_OK_BACKGROUND="#bef272"
+# POWERLEVEL9K_STATUS_OK_FOREGROUND="black"
+# POWERLEVEL9K_TIME_BACKGROUND="grey62"
+# POWERLEVEL9K_DATE_BACKGROUND="white"
+# POWERLEVEL9K_DATE_FOREGROUND="black"
 
 
 # Set list of themes to pick from when loading at random
@@ -235,7 +235,15 @@ cl() {
     tree -L 1
 }
 
+kk(){
 
+  if [ $# -eq 0 ]
+  then
+    htop
+  else
+    htop -F $1
+  fi
+}
 
 
 vif()
@@ -322,3 +330,15 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION=$'\uF303'  # plain "Arch" in place of a logo
+POWERLEVEL9K_BACKGROUND='#8b67ff'
+POWERLEVEL9K_DIR_FOREGROUND=234
+POWERLEVEL9K_DIR_BACKGROUND='#8eb87a'
+POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=234
+POWERLEVEL9K_DIR_ANCHOR_BACKGROUND=234
+POWERLEVEL9K_DIR_SHORTENED_FOREGROUND=234
+POWERLEVEL9K_DIR_SHORTENED_BACKGROUND=234
+POWERLEVEL9K_OS_ICON_BACKGROUND=234
+POWERLEVEL9K_OS_ICON_FOREGROUND='white'
+POWERLEVEL9K_TIME_BACKGROUND='#8eb87a'

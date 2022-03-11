@@ -154,11 +154,6 @@ let g:neoformat_basic_format_retab = 1
 
 " Enable trimmming of trailing whitespace
 let g:neoformat_basic_format_trim = 1
-let g:fzf_action = {
-  \ 'ctrl-t': 'tab split',
-  \ 'ctrl-s': 'split',
-  \ 'ctrl-v': 'vsplit'
-  \}
 
 " vim-rooter configs
 let g:rooter_change_directory_for_non_project_files = 'home'
@@ -187,6 +182,15 @@ let g:fzf_action = {
   \ 'ctrl-v': 'vsplit'
   \}
 
+function! RipgrepFzf(query, fullscreen)
+  let command_fmt = 'rg --column --line-number --no-heading --color=always --smart-case -- %s || true'
+  let initial_command = printf(command_fmt, shellescape(a:query))
+  let reload_command = printf(command_fmt, '{q}')
+  let spec = {'options': ['--phony', '--query', a:query, '--bind', 'change:reload:'.reload_command]}
+  call fzf#vim#grep(initial_command, 1, fzf#vim#with_preview(spec), a:fullscreen)
+endfunction
+
+command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
 
 " vim-workspace configs
 
@@ -228,7 +232,7 @@ nnoremap <C-d> yypi
 inoremap <C-d> <Esc>yypi
 
 " Alternate way to save and quit
-nnoremap <C-Q> :wq<CR>
+nnoremap <C-Q> :q<CR>
 " Use control-c instead of escape
 " nnoremap <C-c> <Esc>
 " Alternate way to save
@@ -259,15 +263,6 @@ inoremap <C-Y> <Esc><C-R>i
 
 vnoremap <C-c> y
 
-
-" mapping leader+ forward slash for commenting
-nnoremap <C-_> :Commentary<CR>
-inoremap <C-_> <Esc>:Commentary<CR>i
-vnoremap <C-_> :Commentary<CR>
-
-
-" coc configs
-source $HOME/.config/nvim/module_configs/coc.vim
 
 " mapping leader+ forward slash for commenting
 nnoremap <C-_> :Commentary<CR>

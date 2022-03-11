@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=base16-atelier-estuary
-Font=Hack,9,-1,7,50,0,0,0,0,0
+Font=Iosevka Nerd Font Mono,11,-1,5,50,0,0,0,0,0
 
 [Cursor Options]
 CursorShape=1

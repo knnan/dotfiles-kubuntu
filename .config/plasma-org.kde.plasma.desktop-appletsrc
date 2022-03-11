@@ -28,14 +28,14 @@ DialogWidth=720
 
 [Containments][2][Applets][22][Configuration][General]
 iconSize=smallMedium
-launchers=applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.ksysguard.desktop,applications:google-chrome.desktop,applications:sublime_text.desktop,applications:code.desktop?iconData=iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAH50lEQVRoge2ae3BUVx3HP-fe7GazG_LYvEsIKaSmxLGVwb5EGQSCRWYKVF5q2xRkoNYCQq3FgpOqLYW-EAlDBaFBXi2RV2mFgDxCFSgULDBUqhMEyiORkBfktXvvPf5x89jsbnZveCT_-Js5M5vZPb_f9_t7nd89N_B_6V5RuxsAIAClu0HcnAx-NtqWv__37qWnS-_ZVvVx3_cuTWTAVFtnVIg7hS2s_CA_kbsHbgJlEJpOSt8-xPZMA8M4ozXVvX72o3c2UPjrxnBquieFJi3tRcbXd6IoD2FI0A0cLhfO-FgQIlGJsI9y93v4R-7RMzVbVOrndSd3ax2p6uoICKa-m01i-kcoog8SMCR4dRLS00no0ztgg5TystHU8LvKYyXLqxaOrwWk7_ddGQHB9HUP4E7biRC9muHREgFnbAzO-LjATUL0UCJsuc6MrB_Hj5llr3I5j_JZSWtEuqr6BTM3DqNH8i4g1XSibO9LGXoJKZLUyKhX-o58bhE-ju8KAgozN43HFfcBENsOGBKkucLgb12Kzf4kENmiPOIOg1eZtXUaUa7FSBnhl76m-CMMI1IKFz6472QEVGZvm0eks8AEHxQNbekkrYXAlNbmEyoCLT-y4Bc_ycmxM2Lh29jsPw3I9QASnbTg99tgBAT5xdnEphUghIO6ijnM-87fLZsZMNXJkFGrUCMmhAfjGwHLFtqJfwoJfrX3QeJ67kdRhyKUgbiS9rDg8PNYqZeRc-IZMmorijqhpThDr1b8mopWagmxH0lfAoL8klzcKbtApLR5RNiJ7PEGb_6jiKl_SOxQ8ROL0ug3qBih5lpuKUjQtXJKD-Y5IpUdljiHIGAnNqEQKWOC7lJso8n-5mHm7nmQ9ie44ImlWaRl70MRD1hD3rya6g_yceEIPpz_FyXK2dhp9H4EbBi60hqioB4TfXEnl_Dq4WcxDxPB08vvJzVzH5BtHbs0qCpbwopp4_h00-dAnVBUo8Po-oofCd-89lJ6fDp9B6wCJbpjDcKBI7qABce_xZkT64lJKESXbhTa4hJqwjL0a1w4NYuilz4ErgMaEIHBLRexh2WTdvBZ8UR0_VpYL0bYJ_KV-z4AxY1XB80AwwhWoG3L0_Aph94bQdFLW4CaZvCdkxA1IIE61r6wn8MbH0fzXAybjzY7pPcChxO8Gmi6OZwZ_nkrDWqurmDNjDEcXHcKqAMCUsZSCYQg0EKins2vHqV4xWi8TWfCekQokJwC7kTwGiYR3ScahlHNl6ensSJvDpWXyoDGQBg-1sMs_43BRgkJNLBv2Wn-_OrjNNYfDd8OBcTEwV3ppkqvbpJoajzJsc0jef8X7wPVhEoZayUcNgK-0sjxLWf54_QJNNTusRRfeyT0zIBIp6T66hrWvfAYB949DtywBNFKB_OTcMOch6ietVw4Z1BbY82AUCA1DTKyNDLvrwGagpu-SelEBGDc_ESGPbkNhzOXinKoqrSGRSKIdk9iXP5uZmzPwsqjq4UAWyniNvnhm71Jy9mDqg5EFRChQnUFVFy1ZklKUJRvkJpxmHklY0Laojm_blMRC_IKvkpi1n6E8jXTeQIUAaoC16ug_Epzq7RgFNw444p4-ZM3GPy0IxSJm2EQOI1OXvkwcel7ESKzdVMzB1QFVBXqr0PZpeZWacmugs0xm6Ez_srPtmTSUUpZckh7Bu2n0cmFuUQn7kSK5KCtEsxIRKhQfWU7J3ZNwdCrrbJAUQaSmHmEF_d-L8B5t6GN2nHGrO5wGm0dokQjVefnsWbKFIpe3MSx7WPRtStWOYBIIsa9jZc_-Q054-wB4G6hjdqQYbqF7j3PFwe-z4ZZBcA1oIat-Yf425oxaJ5SyyQMVNTIuYyfs4Mpa9NpDu-tdiEvl09Nx9BvBN3ZUFvM7iUj2P32fqAW0JvVNbBr8QmKF4_B03DCMgkJKMoQ0vsdYdrmoVLTLV0w-D8SCL_PLnJnD-KeR1ajqC1PXx4qLy1k_fQCzHHA04HuSHIG92L0b1fhiP62FTBmNCR4DS0hPq40JiUpO_wWybmn4uIwp9mAq0UvZw9dxhVfQuxd96Jr_-X8sRlsmbeBcLMM6Fw9d4PSA8X0G56FzREWTGt0dalEOpyJUdHOsFuQUL11wQLMEz5ozgvMmy9X8-c6Qk2QgWLD5Urgmc0L6JGcFxaNIcFjEOd2E5_S8SN32w7Juby2CHQ0jTYClZiF2tAJ8ABe6uoqeOu7P6fqy7cIdWPl_-ctFnEwIp0B7isaUMXix-ZT_u-5GFIPzsEXlTVToW4lbrfoQDXLJizj4snnMGRT0J4ejFDoENT57L7jt9MGUMuqSes5ezAPQ78ecLHlS8KKwhuVG_FpJl3xgkMCHk7tOIc78whJdw9HKC7zm2YihsQRFYXD5epYiaFX6hXnCy6-NvYV6q-2vqnpyldMAnDy6PP96T92Hao9owU8XrMLxaUmBQLXveVa-dmVFWvm_Knpi31lmF1R81XalSIAB488dS-DnllLhD0H3SQQm-AmLqWNgNQ8Fz1l_1petfIn65ounKrA7IYafsnWXa9ZHdz3aG-G_3I1EVEPoUncKcn0iI_H0BpLvZf--U7ZkslFVP-nkjbgQaX73hODnbT-aer41_Ojk3oOi4mNLvdeOVNYtmjiNhoqawgDvEW6kwCADfPEd2C23XrMQ1TvTlCdlZb_lehuZ3aP_A__UsTubakFDQAAAABJRU5ErkJggg%3D%3D,applications:sublime_merge.desktop,applications:systemsettings.desktop,applications:spotify.desktop,applications:vlc.desktop,applications:chrome-kobdneokgonabnkdgjlbamhhgpahjihn-Default.desktop,applications:slack.desktop,applications:microsoft-edge-beta.desktop,applications:anydesk.desktop,applications:chrome-eikjhbkpemdappjfcmdeeeamdpkgabmk-Default.desktop
+launchers=applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.ksysguard.desktop,applications:google-chrome.desktop,applications:sublime_text.desktop,applications:code.desktop?iconData=iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAH50lEQVRoge2ae3BUVx3HP-fe7GazG_LYvEsIKaSmxLGVwb5EGQSCRWYKVF5q2xRkoNYCQq3FgpOqLYW-EAlDBaFBXi2RV2mFgDxCFSgULDBUqhMEyiORkBfktXvvPf5x89jsbnZveCT_-Js5M5vZPb_f9_t7nd89N_B_6V5RuxsAIAClu0HcnAx-NtqWv__37qWnS-_ZVvVx3_cuTWTAVFtnVIg7hS2s_CA_kbsHbgJlEJpOSt8-xPZMA8M4ozXVvX72o3c2UPjrxnBquieFJi3tRcbXd6IoD2FI0A0cLhfO-FgQIlGJsI9y93v4R-7RMzVbVOrndSd3ax2p6uoICKa-m01i-kcoog8SMCR4dRLS00no0ztgg5TystHU8LvKYyXLqxaOrwWk7_ddGQHB9HUP4E7biRC9muHREgFnbAzO-LjATUL0UCJsuc6MrB_Hj5llr3I5j_JZSWtEuqr6BTM3DqNH8i4g1XSibO9LGXoJKZLUyKhX-o58bhE-ju8KAgozN43HFfcBENsOGBKkucLgb12Kzf4kENmiPOIOg1eZtXUaUa7FSBnhl76m-CMMI1IKFz6472QEVGZvm0eks8AEHxQNbekkrYXAlNbmEyoCLT-y4Bc_ycmxM2Lh29jsPw3I9QASnbTg99tgBAT5xdnEphUghIO6ijnM-87fLZsZMNXJkFGrUCMmhAfjGwHLFtqJfwoJfrX3QeJ67kdRhyKUgbiS9rDg8PNYqZeRc-IZMmorijqhpThDr1b8mopWagmxH0lfAoL8klzcKbtApLR5RNiJ7PEGb_6jiKl_SOxQ8ROL0ug3qBih5lpuKUjQtXJKD-Y5IpUdljiHIGAnNqEQKWOC7lJso8n-5mHm7nmQ9ie44ImlWaRl70MRD1hD3rya6g_yceEIPpz_FyXK2dhp9H4EbBi60hqioB4TfXEnl_Dq4WcxDxPB08vvJzVzH5BtHbs0qCpbwopp4_h00-dAnVBUo8Po-oofCd-89lJ6fDp9B6wCJbpjDcKBI7qABce_xZkT64lJKESXbhTa4hJqwjL0a1w4NYuilz4ErgMaEIHBLRexh2WTdvBZ8UR0_VpYL0bYJ_KV-z4AxY1XB80AwwhWoG3L0_Aph94bQdFLW4CaZvCdkxA1IIE61r6wn8MbH0fzXAybjzY7pPcChxO8Gmi6OZwZ_nkrDWqurmDNjDEcXHcKqAMCUsZSCYQg0EKins2vHqV4xWi8TWfCekQokJwC7kTwGiYR3ScahlHNl6ensSJvDpWXyoDGQBg-1sMs_43BRgkJNLBv2Wn-_OrjNNYfDd8OBcTEwV3ppkqvbpJoajzJsc0jef8X7wPVhEoZayUcNgK-0sjxLWf54_QJNNTusRRfeyT0zIBIp6T66hrWvfAYB949DtywBNFKB_OTcMOch6ietVw4Z1BbY82AUCA1DTKyNDLvrwGagpu-SelEBGDc_ESGPbkNhzOXinKoqrSGRSKIdk9iXP5uZmzPwsqjq4UAWyniNvnhm71Jy9mDqg5EFRChQnUFVFy1ZklKUJRvkJpxmHklY0Laojm_blMRC_IKvkpi1n6E8jXTeQIUAaoC16ug_Epzq7RgFNw444p4-ZM3GPy0IxSJm2EQOI1OXvkwcel7ESKzdVMzB1QFVBXqr0PZpeZWacmugs0xm6Ez_srPtmTSUUpZckh7Bu2n0cmFuUQn7kSK5KCtEsxIRKhQfWU7J3ZNwdCrrbJAUQaSmHmEF_d-L8B5t6GN2nHGrO5wGm0dokQjVefnsWbKFIpe3MSx7WPRtStWOYBIIsa9jZc_-Q054-wB4G6hjdqQYbqF7j3PFwe-z4ZZBcA1oIat-Yf425oxaJ5SyyQMVNTIuYyfs4Mpa9NpDu-tdiEvl09Nx9BvBN3ZUFvM7iUj2P32fqAW0JvVNbBr8QmKF4_B03DCMgkJKMoQ0vsdYdrmoVLTLV0w-D8SCL_PLnJnD-KeR1ajqC1PXx4qLy1k_fQCzHHA04HuSHIG92L0b1fhiP62FTBmNCR4DS0hPq40JiUpO_wWybmn4uIwp9mAq0UvZw9dxhVfQuxd96Jr_-X8sRlsmbeBcLMM6Fw9d4PSA8X0G56FzREWTGt0dalEOpyJUdHOsFuQUL11wQLMEz5ozgvMmy9X8-c6Qk2QgWLD5Urgmc0L6JGcFxaNIcFjEOd2E5_S8SN32w7Juby2CHQ0jTYClZiF2tAJ8ABe6uoqeOu7P6fqy7cIdWPl_-ctFnEwIp0B7isaUMXix-ZT_u-5GFIPzsEXlTVToW4lbrfoQDXLJizj4snnMGRT0J4ejFDoENT57L7jt9MGUMuqSes5ezAPQ78ecLHlS8KKwhuVG_FpJl3xgkMCHk7tOIc78whJdw9HKC7zm2YihsQRFYXD5epYiaFX6hXnCy6-NvYV6q-2vqnpyldMAnDy6PP96T92Hao9owU8XrMLxaUmBQLXveVa-dmVFWvm_Knpi31lmF1R81XalSIAB488dS-DnllLhD0H3SQQm-AmLqWNgNQ8Fz1l_1petfIn65ounKrA7IYafsnWXa9ZHdz3aG-G_3I1EVEPoUncKcn0iI_H0BpLvZf--U7ZkslFVP-nkjbgQaX73hODnbT-aer41_Ojk3oOi4mNLvdeOVNYtmjiNhoqawgDvEW6kwCADfPEd2C23XrMQ1TvTlCdlZb_lehuZ3aP_A__UsTubakFDQAAAABJRU5ErkJggg%3D%3D,applications:sublime_merge.desktop,applications:systemsettings.desktop,applications:spotify.desktop,applications:vlc.desktop,applications:chrome-kobdneokgonabnkdgjlbamhhgpahjihn-Default.desktop,applications:slack.desktop,applications:microsoft-edge-beta.desktop,applications:anydesk.desktop,applications:chrome-eikjhbkpemdappjfcmdeeeamdpkgabmk-Default.desktop,applications:chrome-kjgfgldnnfoeklkmfkjfagphfepbbdan-Profile_3.desktop
 
 [Containments][2][Applets][28]
 immutability=1
 plugin=org.kde.plasma.systemmonitor
 
 [Containments][2][Applets][28][Configuration]
-PreloadWeight=0
+PreloadWeight=30
 
 [Containments][2][Applets][28][Configuration][Appearance]
 chartFace=org.kde.ksysguard.piechart
@@ -63,7 +63,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock.wl
 
 [Containments][2][Applets][31][Configuration]
-PreloadWeight=28
+PreloadWeight=44
 
 [Containments][2][Applets][31][Configuration][Appearance]
 bold=false
@@ -79,7 +79,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 SystrayContainmentId=7
 
 [Containments][2][Applets][65]
@@ -87,7 +87,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][2][Applets][65][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][2][Applets][65][Configuration][General]
 favoritesPortedToKAstats=true
@@ -146,7 +146,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][60][Wallpaper][org.kde.image][General]
-Image=file:///home/knnan/Downloads/Photos/samurai_extraGreen.jpg
+Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.png
 
 [Containments][62]
 ItemGeometriesHorizontal=Applet-61:64,64,400,160,0;
@@ -188,7 +188,7 @@ ToolBoxButtonX=570
 Image=file:///home/knnan/.local/share/wallpapers/Saved Pictures/devianart/just_low_poly__by_pyxartz-da72vz4.jpg
 
 [Containments][62][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/knnan/wallpapers/FalseGods.jpg
+Image=file:///home/knnan/wallpapers/d2b57fa26d5bdf3734859e22f6405ad6.png
 SlidePaths=/home/knnan/wallpapers
 SlideshowMode=1
 
@@ -280,7 +280,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][7][Applets][19][Configuration]
-PreloadWeight=7
+PreloadWeight=0
 
 [Containments][7][Applets][19][Configuration][ConfigDialog]
 DialogHeight=540
@@ -294,14 +294,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][20][Configuration]
-PreloadWeight=31
+PreloadWeight=32
 
 [Containments][7][Applets][21]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][7][Applets][21][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][7][Applets][24][Configuration]
 PreloadWeight=42
@@ -311,7 +311,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][36][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][7][Applets][36][Configuration][ConfigDialog]
 DialogHeight=540
@@ -322,14 +322,14 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][7][Applets][37][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][7][Applets][44]
 immutability=1
 plugin=org.kde.kscreen
 
 [Containments][7][Applets][44][Configuration]
-PreloadWeight=0
+PreloadWeight=17
 
 [Containments][7][Applets][44][Configuration][ConfigDialog]
 DialogHeight=540
@@ -363,5 +363,5 @@ textColor=#555555
 textFont=Arial,10,-1,5,50,0,0,0,0,0
 
 [ScreenMapping]
-itemsOnDisabledScreens=3,36,desktop:/10 Marks Card.pdf,desktop:/wps-office-prometheus.desktop,desktop:/chrome-kobdneokgonabnkdgjlbamhhgpahjihn-Default.desktop,desktop:/1618140062254-a755a93f-c0eb-45e4-8129-27b980869df1-removebg-preview.jpg,desktop:/hdfc_bank_cancelled_check.jpg,desktop:/photo_2021-08-05_22-48-40.jpg,desktop:/nginx.conf,desktop:/Screenshot_20201122_215118.png,desktop:/programmingtypescript.pdf,desktop:/RANJAN pavan amazon.docx,desktop:/pancard_photo.jpg,desktop:/SCRIPTINGQ1,desktop:/mentoring file1.xls,desktop:/commissioner permission letter.pdf,desktop:/chrome-pkooggnaalmfkidjmlhoelhdllpphaga-Default.desktop,desktop:/kiranresume2021.pdf,desktop:/SCRIPTINGQ1.zip,desktop:/AcknowledgementSlipd8a6e5dd-e7d2-41d0-bc88-202787f77255.pdf,desktop:/Resume_template_to_edit.doc,desktop:/6f05b39e-fb08-4674-9e31-a4368f1956c4.jpeg,desktop:/Copy of pan card.pdf,desktop:/problems,desktop:/1618140062254-a755a93f-c0eb-45e4-8129-27b980869df1.jpg,desktop:/chrome-fldfghidoapfhofdjogkhcoildjkoiof-Default.desktop,desktop:/kubuntu-20.04.2.0-desktop-amd64.iso.torrent,desktop:/FORTINET,desktop:/DIGIBOOKS_CMS_RANJAN.docx,desktop:/code_1.61.2-1634656828_amd64.deb,desktop:/chrome-pcpcloacpnjpnleijinehhogolpidolp-Default.desktop,desktop:/maths question papers.pdf,desktop:/typescript-handbook.pdf,desktop:/BMTC.pdf,desktop:/AccountDetailsModificationDeletionForm.pdf,desktop:/paymemnt-flow.txt,desktop:/warp-debugging-info.zip,desktop:/mentoring file.xls,1,7,desktop:/TRISTAN.html,desktop:/Command_Line_Tools_for_Xcode_12.3.dmg,desktop:/PLJI.pdf,desktop:/nishad,desktop:/PLJI,desktop:/121L085V03.pdf,desktop:/TLauncher-2.831.jar
+itemsOnDisabledScreens=1,8,desktop:/TLauncher-2.831.jar,desktop:/121L085V03.pdf,desktop:/PLJI,desktop:/chrome-eikjhbkpemdappjfcmdeeeamdpkgabmk-Default.desktop,desktop:/TRISTAN.html,desktop:/PLJI.pdf,desktop:/Command_Line_Tools_for_Xcode_12.3.dmg,desktop:/nishad,3,36,desktop:/10 Marks Card.pdf,desktop:/wps-office-prometheus.desktop,desktop:/chrome-kobdneokgonabnkdgjlbamhhgpahjihn-Default.desktop,desktop:/1618140062254-a755a93f-c0eb-45e4-8129-27b980869df1-removebg-preview.jpg,desktop:/hdfc_bank_cancelled_check.jpg,desktop:/photo_2021-08-05_22-48-40.jpg,desktop:/nginx.conf,desktop:/Screenshot_20201122_215118.png,desktop:/programmingtypescript.pdf,desktop:/RANJAN pavan amazon.docx,desktop:/pancard_photo.jpg,desktop:/SCRIPTINGQ1,desktop:/mentoring file1.xls,desktop:/commissioner permission letter.pdf,desktop:/chrome-pkooggnaalmfkidjmlhoelhdllpphaga-Default.desktop,desktop:/kiranresume2021.pdf,desktop:/SCRIPTINGQ1.zip,desktop:/AcknowledgementSlipd8a6e5dd-e7d2-41d0-bc88-202787f77255.pdf,desktop:/Resume_template_to_edit.doc,desktop:/6f05b39e-fb08-4674-9e31-a4368f1956c4.jpeg,desktop:/Copy of pan card.pdf,desktop:/problems,desktop:/1618140062254-a755a93f-c0eb-45e4-8129-27b980869df1.jpg,desktop:/chrome-fldfghidoapfhofdjogkhcoildjkoiof-Default.desktop,desktop:/kubuntu-20.04.2.0-desktop-amd64.iso.torrent,desktop:/FORTINET,desktop:/DIGIBOOKS_CMS_RANJAN.docx,desktop:/code_1.61.2-1634656828_amd64.deb,desktop:/chrome-pcpcloacpnjpnleijinehhogolpidolp-Default.desktop,desktop:/maths question papers.pdf,desktop:/typescript-handbook.pdf,desktop:/BMTC.pdf,desktop:/AccountDetailsModificationDeletionForm.pdf,desktop:/paymemnt-flow.txt,desktop:/warp-debugging-info.zip,desktop:/mentoring file.xls
 screenMapping=

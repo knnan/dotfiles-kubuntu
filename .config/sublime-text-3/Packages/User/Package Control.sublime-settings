@@ -22,6 +22,7 @@
 		"FileIcons Mono",
 		"FileOpTabContextMenu",
 		"GitGutter",
+		"JsPrettier",
 		"Material Color Scheme",
 		"Material Monokai",
 		"Material Theme",
@@ -42,11 +43,13 @@
 		"SublimeAStyleFormatter",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-eslint",
 		"SublimeLinter-gcc",
+		"Tabnine",
 		"Terminus",
 		"Theme - Dark Material",
 		"Theme - One Dark",
 		"Theme - Tech49",
-		"WrapAsYouType"
+		"WrapAsYouType",
 	],
 }
