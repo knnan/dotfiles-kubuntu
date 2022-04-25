@@ -26,7 +26,10 @@ export PATH
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
- ZSH_THEME="powerlevel10k/powerlevel10k"
+SPACESHIP_USER_SHOW=true
+SPACESHIP_CHAR_SYMBOL="➜  "
+ZSH_THEME="spaceship"
+ # ZSH_THEME="powerlevel10k/powerlevel10k"
 # POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir virtualenv vcs newline)
 # POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time date )
 # POWERLEVEL9K_STATUS_OK_BACKGROUND="#bef272"

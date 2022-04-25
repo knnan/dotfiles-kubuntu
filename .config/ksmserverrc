@@ -5,17 +5,22 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 count=0
 
 [Session: saved at previous logout]
-clientId1=101d71a218a1e0000164643679600000020420005
-clientId2=101d71a218a1e0000164643679700000020420008
-count=2
+clientId1=101d71a218a1e0000165081608500000018200006
+clientId2=101d71a218a1e0000165066304200000017920019
+clientId3=101d71a218a1e0000165081608500000018200008
+count=3
 program1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
-program2=pulseaudio
-restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000164643679600000020420005_1646804418_991212
-restartCommand2=
+program2=/usr/bin/plasma-discover-update
+program3=pulseaudio
+restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,101d71a218a1e0000165081608500000018200006_1650822590_914534
+restartCommand2=/usr/bin/plasma-discover-update,-session,101d71a218a1e0000165066304200000017920019_1650822590_914543
+restartCommand3=
 restartStyleHint1=0
 restartStyleHint2=0
+restartStyleHint3=0
 userId1=knnan
 userId2=knnan
+userId3=knnan
 
 [SubSession: b74be856-2c8f-4cfd-a3e3-b422a76c599d]
 count=0

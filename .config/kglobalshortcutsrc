@@ -66,6 +66,7 @@ Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Kill Window
 MinimizeAll=Meta+D,none,MinimizeAll
 MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
+MoveWindowToCenter=Meta+C,none,Move Window to Center
 MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
 MoveZoomRight=none,none,Move Zoomed Area to Right

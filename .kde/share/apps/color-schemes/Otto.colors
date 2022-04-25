@@ -36,10 +36,6 @@ ForegroundVisited=255,102,102
 BackgroundAlternate=44,55,70
 BackgroundNormal=44,55,70
 
-[Colors:Header]
-BackgroundAlternate=44,55,70
-BackgroundNormal=44,55,70
-
 [Colors:Selection]
 BackgroundAlternate=247,112,103
 BackgroundNormal=247,112,103
